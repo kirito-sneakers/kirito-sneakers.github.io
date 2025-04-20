@@ -1080,6 +1080,23 @@ footer {
                 border-radius: 5px;
                 border: 2px solid black;
             }
+            button.active {
+                outline: none;
+                position: relative;
+              }
+              
+            button.active::after {
+                content: '';
+                position: absolute;
+                top: -4px;
+                left: -4px;
+                right: -4px;
+                bottom: -4px;
+                box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3); /* 6px — "расстояние" от кнопки */
+                border-radius: 6px;
+                pointer-events: none;
+            }
+              
         }
         .descr {
             display: flex;

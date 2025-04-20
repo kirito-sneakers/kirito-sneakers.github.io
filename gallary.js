@@ -74,9 +74,17 @@ function setColorButtons(colorsData, commonInfo) {
 
     colorButtons.forEach((button) => {
         button.addEventListener("click", () => {
-            updateContent(button.classList[0], commonInfo, colorsData);  // Класс кнопки соответствует названию цвета
+            colorButtons.forEach(btn => btn.classList.remove("active"));
+            button.classList.add("active");
+            updateContent(button.classList[0], commonInfo, colorsData);
         });
     });
+    
+    // По умолчанию активна первая
+    if (colorButtons.length > 0) {
+        colorButtons[0].classList.add("active");
+    }
+    
 }
 
 // Инициализация при загрузке страницы
