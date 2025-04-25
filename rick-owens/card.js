@@ -1,4 +1,6 @@
-const geobasket = document.querySelector('#geobasket');
+const geobasket = document.querySelector('#geobasket'),
+      dunks = document.querySelector('#dunks'),
+      ramones = document.querySelector('#ramones');
 
 const rickMainMenu = [
     {
@@ -84,6 +86,54 @@ const rickMainMenu = [
         colors: 1,
         href: "./geobasket-chrome-hearts.html",
         parent: geobasket,
+    },
+    {
+        title: 'Rick Owens Dunk',
+        images: [
+            "./img/dunk-milk-black-1.jpg",
+        ],
+        colors: 4,
+        href: "./dunks.html",
+        parent: dunks,
+    },
+    {
+        title: 'Rick Owens & Chrome Hearts Dunk',
+        images: [
+            "./img/dunk-chrome-hearts-milk-black-1.jpg",
+        ],
+        colors: 1,
+        href: "./dunks-chrome-hearts.html",
+        parent: dunks,
+    },
+    {
+        title: 'Rick Owens Ramones',
+        images: [
+            "./img/ramones-black-white-1.jpg",
+        ],
+        colors: 1,
+        href: "./ramones.html",
+        parent: ramones,
+    },
+    {
+        title: 'Rick Owens Ramones Leather',
+        images: [
+            "./img/ramones-leather-black-white-1.jpg",
+            "./img/ramones-leather-milk-1.jpg",
+            "./img/ramones-leather-black-1.jpg",
+        ],
+        colors: 3,
+        href: "./ramones-leather.html",
+        parent: ramones,
+    },
+    {
+        title: 'Rick Owens Ramones Suede',
+        images: [
+            "./img/ramones-suede-black-white-1.jpg",
+            "./img/ramones-suede-brown-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./ramones-suede.html",
+        parent: ramones,
     },
 ];
 

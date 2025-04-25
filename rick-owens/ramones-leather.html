@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Ramones Leather</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-white",
+                images: [
+                    "./img/ramones-leather-black-white-1.jpg",
+                    "./img/ramones-leather-black-white-2.jpg",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20230714/d1e655c2571244bda4018a813fee08b2.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20230714/b1fbc98ee414430ba1ca3ca7b03dfb18.jpg?x-oss-process=image/format,webp/resize,w_800",
+                ],
+                name: "Rick Owens Ramones Leather in Black/white",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "milk",
+                images: [
+                    "./img/ramones-leather-milk-1.jpg",
+                    "https://cdn.clothbase.com/uploads/90ebc779-44d6-48b1-bca9-59bb865f5cdf/24-01-2023-SI_RU01C4890-LPO-1111_1_1.jpg",
+                    "https://cdn.clothbase.com/uploads/2a9470c8-b3c7-476e-84bf-6f65fb9a9ec6/24-01-2023-SI_RU01C4890-LPO-1111_3_1.jpg",
+                ],
+                name: "Rick Owens Ramones Leather in milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "./img/ramones-leather-black-1.jpg",
+                    "https://static.ftshp.digital/img/p/2/6/6/1/2/8/266128.jpg",
+                    "./img/ramones-leather-black-2.jpg",
+                    "https://static.ftshp.digital/img/p/2/6/6/1/2/5/266125.jpg",
+                ],
+                name: "Rick Owens Ramones Leather in black",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-white", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>

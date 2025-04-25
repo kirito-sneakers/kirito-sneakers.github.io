@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Ramones Suede</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-white",
+                images: [
+                    "./img/ramones-suede-black-white-1.jpg",
+                    "https://i.ibb.co/N6VH05md/image.png",
+                ],
+                name: "Rick Owens Ramones Suede in Black/white",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "brown-milk",
+                images: [
+                    "./img/ramones-suede-brown-milk-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/22/67/05/08/22670508_52707655_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/22/67/05/08/22670508_52707663_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/22/67/05/08/22670508_52707658_1000.jpg",
+                ],
+                name: "Rick Owens Ramones Suede in brown/milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-white", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>
