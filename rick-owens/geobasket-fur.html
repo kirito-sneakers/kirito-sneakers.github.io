@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Geobasket Jumbolace</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "green-milk",
+                images: [
+                    "./img/geobasket-fur-green-milk-1.jpg",
+                    "https://cdn.clothbase.com/uploads/f1970154-700b-49d2-996a-31baaf9eb660/green-geobasket-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/5455b8df-de3f-44d5-8435-a02d7949471c/green-geobasket-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/090ba806-a705-4e51-94f2-30772c983893/green-geobasket-sneakers.jpg",
+                ],
+                name: "Rick Owens Geobasket fur green/Milk",
+                prices: {
+                    excellent: "",
+                    good: "5700 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-milk",
+                images: [
+                    "./img/geobasket-fur-black-milk-1.jpg",
+                    "https://cdn.clothbase.com/uploads/4edc46dd-7752-46c4-bdab-bb122051dee4/black-geobasket-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/a47a0ea6-232e-4d9f-ab45-d4db7b05cc95/black-geobasket-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/b885f08c-9515-4f45-bd32-15c2633eb8be/black-geobasket-sneakers.jpg",
+                ],
+                name: "Rick Owens Geobasket fur Black/Milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "6000 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "pink-milk",
+                images: [
+                    "./img/geobasket-fur-pink-milk-1.jpg",
+                    "https://media-assets.grailed.com/prd/listing/44693686/73fcd7f3ff674fe1b1559c52c28dc55f?w=2200",
+                    "https://media-assets.grailed.com/prd/listing/44693686/712dbe55fc4a468f9557e78aba2a25ba?w=2200",
+                    "https://media-assets.grailed.com/prd/listing/44693686/944c722e424e4a9795838ed153863f36?w=2200",
+                ],
+                name: "Rick Owens Geobasket fur pink/Milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "6000 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "grey-milk",
+                images: [
+                    "./img/geobasket-fur-grey-milk-1.jpg",
+                    "https://cdna.lystit.com/photos/mytheresa/1fbcf112/rick-owens-grey-Zapatillas-Geobasket-de-borrego.jpeg",
+                    "https://cdna.lystit.com/photos/mytheresa/5938c877/rick-owens-grey-Sneakers-Geobasket-in-shearling.jpeg",
+                ],
+                name: "Rick Owens Geobasket fur grey/milk",
+                prices: {
+                    excellent: "",
+                    good: "6000 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "dark-green-milk",
+                images: [
+                    "./img/geobasket-fur-dark-green-milk-1.jpg",
+                    "https://cdn.clothbase.com/uploads/3ea4e707-988c-4ff5-bce2-01bd11df65d8/green-and-off-white-pony-hair-geobasket-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/ce03f24b-f47d-4a9a-a003-78e49104aa8f/green-and-off-white-pony-hair-geobasket-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/b2b05608-0b2b-4bcd-a871-dfce966a7a7c/green-and-off-white-pony-hair-geobasket-sneakers.jpg",
+                ],
+                name: "Rick Owens Geobasket fur dark-green/Milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "pink-white",
+                images: [
+                    "./img/geobasket-fur-pink-white-1.jpg",
+                    "./img/geobasket-fur-pink-white-2.jpg",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20240326/00c32fa076ef49659d3c630efbf282e4.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20240326/1bb4b9794a114f958f5798e42c716ccb.jpg?x-oss-process=image/format,webp/resize,w_800",
+                ],
+                name: "Rick Owens Geobasket fur pink/white",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "green-white",
+                images: [
+                    "./img/geobasket-fur-green-white-1.jpg",
+                    "./img/geobasket-fur-green-white-2.jpg",
+                    "./img/geobasket-fur-green-white-3.jpg",
+                    "./img/geobasket-fur-green-white-4.jpg",
+                    "./img/geobasket-fur-green-white-5.jpg",
+                ],
+                name: "Rick Owens Geobasket fur green/white",
+                prices: {
+                    excellent: "",
+                    good: "5700 ₴",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("green-milk", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>

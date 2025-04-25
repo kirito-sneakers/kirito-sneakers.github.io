@@ -73,6 +73,39 @@ main {
     }
 }
 
+.black-milk {
+    background-color: #f8ffdd;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: black;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+.milk {
+    background-color: #f8ffdd;
+}
+
+.milk-black {
+    background-color: black;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: #f8ffdd;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+
 .white {
     background-color: rgb(255, 255, 255);
 }
@@ -246,6 +279,51 @@ main {
     }
 }
 
+.green-white {
+    background-color: rgb(255, 255, 255);
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(106, 219, 14);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+
+.dark-green-milk {
+    background-color: #f8ffdd;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(51, 108, 4);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+
+.green-milk {
+    background-color: #f8ffdd;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(155, 204, 21);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+
 .white-yellow {
     background-color: yellow;
     &::before {
@@ -360,6 +438,21 @@ main {
     }
 }
 
+.grey-milk {
+    background-color: #f8ffdd;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: grey;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+
 .grey-blue {
     background-color: rgb(119, 221, 236);
     &::before {
@@ -373,6 +466,10 @@ main {
         border-top-left-radius: 2px;
         border-bottom-left-radius: 2px;
     }
+}
+
+.light-grey {
+    background-color: rgb(232, 232, 232);
 }
 
 
@@ -474,6 +571,36 @@ main {
     } 
 }
 
+.red-white {
+    background-color: white;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: red;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    } 
+}
+
+.red-milk {
+    background-color: #f8ffdd;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: red;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    } 
+}
+
 
 .pink {
     background-color: pink;
@@ -488,7 +615,37 @@ main {
         left: 0;
         height: 100%;
         width: 50%;
-        background-color: pink;
+        background-color: rgb(255, 105, 130);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    } 
+}
+
+.pink-white {
+    background-color: white;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(248, 121, 143);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    } 
+}
+
+.pink-milk {
+    background-color: #f8ffdd;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(255, 0, 119);
         border-top-left-radius: 2px;
         border-bottom-left-radius: 2px;
     } 
@@ -561,6 +718,36 @@ main {
 
 .lime {
     background-color: rgb(172, 230, 125);
+}
+
+.olive-green-white {
+    background-color: white;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(1, 53, 2);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    } 
+}
+
+.brown-milk {
+    background-color: f8ffdd;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(181, 114, 67);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    } 
 }
 
 .view-more-btn {
@@ -691,13 +878,12 @@ main.alternative-header {
     display: flex;
     width: 100%;
     height: 80vh;
-    background-image: url('./../img/balenciagaBg.png');
     background-size: cover;
     background-position-y: bottom;
     justify-content: center;
     border-bottom: 1px solid #111;
     .brand-logo-main {
-        width: 40%;
+        width: 35%;
         height: min-content;
         filter: brightness(0) invert(1);
         align-self: center;
@@ -713,6 +899,15 @@ main.alternative-header {
         background-color: #111;
         opacity: 0.7;
     }
+}
+
+
+.section-header#balenciaga-bg {
+    background-image: url('./../img/balenciagaBg.png');
+}
+
+.section-header#rick-owens-bg {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/ttYtTjh6RndLteFwTfTq6N.jpg');
 }
 
 .mein-menu {

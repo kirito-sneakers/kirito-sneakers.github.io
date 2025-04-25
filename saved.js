@@ -20,11 +20,25 @@ document.addEventListener('DOMContentLoaded', () => {
             const element = document.createElement('article');
             element.classList.add('list-item', 'secondary-list');
 
+            // Определяем бренд по title
+            const getBrandFromTitle = (title) => {
+                if (/rick owens/i.test(title)) return 'rick-owens';
+                if (/balenciaga/i.test(title)) return 'balenciaga';
+                return 'default';
+            };
+
+            const brand = getBrandFromTitle(card.title);
+
+            // Подменяем путь в href
+            const correctedHref = card.href.replace(/\.\/[^/]+\//, `./${brand}/`);
+
+            // Обновляем ссылки на изображения
             const slides = card.images.map(imgSrc => {
                 const fullImgSrc = imgSrc.startsWith('./img/')
-                    ? `./balenciaga/img/${imgSrc.slice(6)}`
+                    ? `./${brand}/img/${imgSrc.slice(6)}`
                     : imgSrc;
-                return `<a href="${card.href}" class="swiper-slide"><img src="${fullImgSrc}" alt="${card.title}" /></a>`;
+
+                return `<a href="${correctedHref}" class="swiper-slide"><img src="${fullImgSrc}" alt="${card.title}" /></a>`;
             }).join('');
 
             element.innerHTML = `
@@ -43,15 +57,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Обработчик удаления карточки
             element.querySelector('.delete-card').addEventListener('click', () => {
-                // Удаляем по уникальному заголовку
                 savedCards = savedCards.filter(saved => saved.title !== card.title);
                 localStorage.setItem('savedCards', JSON.stringify(savedCards));
-                renderCards(); // перерисовываем карточки
+                renderCards();
             });
 
             container.appendChild(element);
 
-            // Инициализация Swiper для каждой карточки
+            // Инициализация Swiper
             new Swiper(element.querySelector('.swiper'), {
                 direction: 'horizontal',
                 loop: true,
@@ -66,5 +79,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    renderCards(); // Запуск отрисовки
+    renderCards();
 });

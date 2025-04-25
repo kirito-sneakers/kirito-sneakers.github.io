@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Geobasket</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-milk",
+                images: [
+                    "./img/geobasket-black-milk-1.jpg",
+                    "https://cdn.rickowens.eu/products/185985/large/RU01D3894_LCO_911_03.jpg?1732873476",
+                    "https://cdn.rickowens.eu/products/185988/large/RU01E5894_LCO_911.jpg?1732873482",
+                    "https://cdn.rickowens.eu/products/185986/large/RU01D3894_LCO_911_04.jpg?1732873476",
+                ],
+                name: "Rick Owens Geobasket Black/Milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "milk-black",
+                images: [
+                    "./img/geobasket-milk-black-1.jpg",
+                    "https://editorialist.com/thumbnails/600/2023/8/026/279/535/26279535~milk%20&%20black_1.webp",
+                    "https://editorialist.com/thumbnails/600/2023/8/026/279/535/26279535~milk%20&%20black_2.webp",
+                    "https://editorialist.com/thumbnails/600/2023/8/026/279/535/26279535~milk%20&%20black_3.webp",
+                ],
+                name: "Rick Owens Geobasket Milk/Black",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "red-milk",
+                images: [
+                    "./img/geobasket-red-milk-1.jpg",
+                    "https://deliberti.b-cdn.net/productsimage/342705-3Z.jpg",
+                    "https://deliberti.b-cdn.net/productsimage/342705-4Z.jpg",
+                    "https://deliberti.b-cdn.net/productsimage/342705-5Z.jpg",
+                ],
+                name: "Rick Owens Geobasket Red/Milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "pink-milk",
+                images: [
+                    "./img/geobasket-pink-milk-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/16/42/64/69/16426469_31791140_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/16/42/64/69/16426469_31791139_1000.jpg",
+                ],
+                name: "Rick Owens Geobasket Pink/Milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "olive-green-white",
+                images: [
+                    "./img/geobasket-olive-green-white-1.jpg",
+                ],
+                name: "Rick Owens Geobasket Olive-Green/White",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-white",
+                images: [
+                    "./img/geobasket-black-white-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/29/46/10/68/29461068_58474478_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/29/46/10/68/29461068_58474477_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/29/46/10/68/29461068_58474476_2048.jpg",
+                ],
+                name: "Rick Owens Geobasket Black/White",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "milk",
+                images: [
+                    "./img/geobasket-milk-1.jpg",
+                    "https://static.ftshp.digital/img/p/3/5/2/8/2/2/352822.jpg",
+                    "./img/geobasket-milk-2.jpg",
+                    "https://static.ftshp.digital/img/p/3/5/2/8/1/6/352816.jpg",
+                    "https://static.ftshp.digital/img/p/3/5/2/8/1/9/352819.jpg",
+                ],
+                name: "Rick Owens Geobasket Milk",
+                prices: {
+                    excellent: "7800 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-milk", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>
