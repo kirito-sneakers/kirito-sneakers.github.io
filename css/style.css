@@ -1573,7 +1573,7 @@ footer {
             aspect-ratio: 1 / 1.9;
             h3 {
                 font-size: 13px;
-                
+                width: 70%;
             }
         }
     }
@@ -1587,6 +1587,9 @@ footer {
             p {
                 width: 100%;
                 font-size: 12px;
+            }
+            h3 {
+                font-size: 17px;
             }
         }
     }
@@ -1681,6 +1684,27 @@ footer {
     .brand-logo {
         img {
             height: 140px;
+        }
+    }
+    .mein-menu {
+        .list-item {
+            aspect-ratio: 1 / 1.9;
+            h3 {
+                font-size: 14px;
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media (max-width: 352px) {
+    .mein-menu {
+        .list-item {
+            aspect-ratio: 1 / 1.95;
+            h3 {
+                font-size: 14px;
+                width: 70%;
+            }
         }
     }
 }

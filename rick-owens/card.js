@@ -4,7 +4,7 @@ const geobasket = document.querySelector('#geobasket'),
 
 const rickMainMenu = [
     {
-        title: 'Rick Owens Geobasket',
+        title: 'Geobasket',
         images: [
             "./img/geobasket-black-milk-1.jpg",
             "./img/geobasket-milk-black-1.jpg",
@@ -19,7 +19,7 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Rick Owens Geobasket Jumbolace',
+        title: 'Geobasket Jumbolace',
         images: [
             "./img/geobasket-jumbolace-black-milk-1.jpg",
             "./img/geobasket-jumbolace-pink-milk-1.jpg",
@@ -33,7 +33,7 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Rick Owens Geobasket Pentagram',
+        title: 'Geobasket Pentagram',
         images: [
             "./img/geobasket-pentagram-black-white-1.jpg",
             "./img/geobasket-pentagram-white-black-1.jpg",
@@ -43,7 +43,7 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Rick Owens Geobasket Fur',
+        title: 'Geobasket Fur',
         images: [
             "./img/geobasket-fur-green-milk-1.jpg",
             "./img/geobasket-fur-black-milk-1.jpg",
@@ -58,7 +58,7 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Rick Owens Geobasket Suede',
+        title: 'Geobasket Suede',
         images: [
             "./img/geobasket-suede-black-milk-1.jpg",
             "./img/geobasket-suede-brown-milk-1.jpg",
@@ -69,9 +69,9 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Rick Owens Geobasket Megabumper',
+        title: 'Geobasket Megabumper',
         images: [
-            "./img/geobasket-megabumper-black-white-1.jpg",
+            "./img/geobasket-megabumper-black-milk-1.jpg",
             "./img/geobasket-megabumper-black-1.jpg",
         ],
         colors: 2,
@@ -88,9 +88,12 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Rick Owens Dunk',
+        title: 'Dunk',
         images: [
             "./img/dunk-milk-black-1.jpg",
+            "./img/dunk-black-milk-1.jpg",
+            "./img/dunk-black-1.jpg",
+            "./img/dunk-milk-1.jpg",
         ],
         colors: 4,
         href: "./dunks.html",
@@ -106,16 +109,16 @@ const rickMainMenu = [
         parent: dunks,
     },
     {
-        title: 'Rick Owens Ramones',
+        title: 'Ramones',
         images: [
-            "./img/ramones-black-white-1.jpg",
+            "./img/ramones-black-milk-1.jpg",
         ],
         colors: 1,
         href: "./ramones.html",
         parent: ramones,
     },
     {
-        title: 'Rick Owens Ramones Leather',
+        title: 'Ramones Leather',
         images: [
             "./img/ramones-leather-black-white-1.jpg",
             "./img/ramones-leather-milk-1.jpg",
@@ -126,13 +129,33 @@ const rickMainMenu = [
         parent: ramones,
     },
     {
-        title: 'Rick Owens Ramones Suede',
+        title: 'Ramones Suede',
         images: [
             "./img/ramones-suede-black-white-1.jpg",
             "./img/ramones-suede-brown-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-suede.html",
+        parent: ramones,
+    },
+    {
+        title: 'Ramones Jumbolace',
+        images: [
+            "./img/ramones-jumbolace-black-milk-1.jpg",
+            "./img/ramones-jumbolace-black-1.jpg",
+            "./img/ramones-jumbolace-milk-1.jpg",
+        ],
+        colors: 3,
+        href: "./ramones-jumbolace.html",
+        parent: ramones,
+    },
+    {
+        title: 'Ramones Puffer',
+        images: [
+            "./img/ramones-puffer-black-milk-1.jpg",
+        ],
+        colors: 1,
+        href: "./ramones-puffer.html",
         parent: ramones,
     },
 ];
