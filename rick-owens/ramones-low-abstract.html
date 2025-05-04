@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Ramones Low Abstract</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-milk",
+                images: [
+                    "./img/ramones-low-abstract-black-milk-1.jpg",
+                    "./img/ramones-low-abstract-black-milk-2.jpg",
+                    "./img/ramones-low-abstract-black-milk-3.jpg",
+                    "./img/ramones-low-abstract-black-milk-4.jpg",
+                ],
+                name: "Rick Owens Ramones Low Abstract in Black/Milk",
+                prices: {
+                    excellent: "6100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "./img/ramones-low-abstract-black-1.jpg",
+                    "https://img.ssensemedia.com/images/f_auto/251126M237009_4/rick-owens-drkshdw-black-hollywood-abstract-low-sneaks-sneakers.jpg",
+                    "https://img.ssensemedia.com/images/f_auto/251126M237009_3/rick-owens-drkshdw-black-hollywood-abstract-low-sneaks-sneakers.jpg",
+                    "https://img.ssensemedia.com/images/f_auto/251126M237009_2/rick-owens-drkshdw-black-hollywood-abstract-low-sneaks-sneakers.jpg",
+                ],
+                name: "Rick Owens Ramones Low Abstract in Black",
+                prices: {
+                    excellent: "6100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-milk-1",
+                images: [
+                    "./img/ramones-low-abstract-clear-sole-black-milk-1.jpg",
+                    "./img/ramones-low-abstract-clear-sole-black-milk-2.jpg",
+                    "./img/ramones-low-abstract-clear-sole-black-milk-3.jpg",
+                    "./img/ramones-low-abstract-clear-sole-black-milk-4.jpg",
+                ],
+                name: "Rick Owens Ramones Low Abstract Clear Sole in Black/Milk",
+                prices: {
+                    excellent: "6100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black1",
+                images: [
+                    "./img/ramones-low-abstract-clear-sole-black-1.jpg",
+                    "./img/ramones-low-abstract-clear-sole-black-2.jpg",
+                    "./img/ramones-low-abstract-clear-sole-black-3.jpg",
+                    "./img/ramones-low-abstract-clear-sole-black-4.jpg",
+                ],
+                name: "Rick Owens Ramones Low Abstract Clear Sole in Black",
+                prices: {
+                    excellent: "6100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-milk-2",
+                images: [
+                    "./img/ramones-low-abstract-jumbolace-black-milk-1.jpg",
+                    "./img/ramones-low-abstract-jumbolace-black-milk-2.jpg",
+                    "./img/ramones-low-abstract-jumbolace-black-milk-3.jpg",
+                ],
+                name: "Rick Owens Ramones Low Abstract Jumbolace in Black/Milk",
+                prices: {
+                    excellent: "6100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-milk", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>

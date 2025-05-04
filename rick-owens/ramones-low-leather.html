@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Ramones Low Leather</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-milk",
+                images: [
+                    "./img/ramones-low-leather-black-milk-1.jpg",
+                    "./img/ramones-low-leather-black-milk-2.jpg",
+                    "./img/ramones-low-leather-black-milk-3.jpg",
+                    "./img/ramones-low-leather-black-milk-4.jpg",
+                ],
+                name: "Rick Owens Ramones Low Leather in Black/Milk",
+                prices: {
+                    excellent: "6600 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-light-gum",
+                images: [
+                    "./img/ramones-low-leather-black-light-gum-1.jpg",
+                    "./img/ramones-low-leather-black-light-gum-2.jpg",
+                    "./img/ramones-low-leather-black-light-gum-3.jpg",
+                    "./img/ramones-low-leather-black-light-gum-4.jpg",
+                ],
+                name: "Rick Owens Ramones Low Leather in Black/Light-Gum",
+                prices: {
+                    excellent: "5700 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "olive-milk",
+                images: [
+                    "./img/ramones-low-leather-olive-milk-1.jpg",
+                    "./img/ramones-low-leather-olive-milk-2.jpg",
+                    "./img/ramones-low-leather-olive-milk-3.jpg",
+                    "./img/ramones-low-leather-olive-milk-4.jpg",
+                ],
+                name: "Rick Owens Ramones Low Leather in Olive/Milk",
+                prices: {
+                    excellent: "5700 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "purple-milk",
+                images: [
+                    "./img/ramones-low-leather-purple-milk-1.jpg",
+                    "./img/ramones-low-leather-purple-milk-2.jpg",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20231028/973099bd73864f0caabbfaa33b0f0d3f.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20240224/7d5528aeb20142c7a1d33ad31019cf41.jpg?x-oss-process=image/format,webp/resize,w_800",
+                ],
+                name: "Rick Owens Ramones Low Leather in purple/Milk",
+                prices: {
+                    excellent: "6600 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "milk",
+                images: [
+                    "./img/ramones-low-leather-milk-1.jpg",
+                    "https://cdn.clothbase.com/uploads/a10a9701-08e4-4e73-8271-d9aa1a65e511/white-low-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/aeb2a023-112a-4958-bf93-a5b6fdaf6771/white-low-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/4f2bd5cb-c74c-422f-85f2-108c3ddb5a64/white-low-sneakers.jpg",
+                ],
+                name: "Rick Owens Ramones Low Leather in Milk",
+                prices: {
+                    excellent: "6600 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-milk", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>
