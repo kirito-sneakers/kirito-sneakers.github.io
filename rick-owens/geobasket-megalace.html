@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Geobasket Megalace</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-white",
+                images: [
+                    "./img/geobasket-pentagram-black-white-1.jpg",
+                    "https://media-assets.grailed.com/prd/listing/20529451/282396c7b28d4b829ea08c172db57fb9?w=2200",
+                    "https://media-assets.grailed.com/prd/listing/20529451/d23a939960cf427488d077840f6bf15d?w=2200",
+                ],
+                name: "Rick Owens Geobasket Megalace Black/White",
+                prices: {
+                    excellent: "7000 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-milk",
+                images: [
+                    "./img/geobasket-pentagram-white-black-1.jpg",
+                    "https://cdn.clothbase.com/uploads/4fe40824-f6fd-43a9-b50f-c0adaafcc39e/201232M236150_3.jpg",
+                    "https://cdn.clothbase.com/uploads/53b3fa8d-e945-4c00-bf70-7562ce64b373/201232M236150_2.jpg",
+                    "https://cdn.clothbase.com/uploads/58739760-dc3e-40be-bdfc-b0f2374a058a/201232M236150_5.jpg",
+                    "https://cdn.clothbase.com/uploads/ce89a114-5666-454b-939a-f498778beea5/201232M236150_4.jpg",
+                ],
+                name: "Rick Owens Geobasket Megalace White/Milk",
+                prices: {
+                    excellent: "7000 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-white", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>

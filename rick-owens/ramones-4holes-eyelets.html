@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens Ramones 4 Holes and Eyelets</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5000 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5000 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-milk",
+                images: [
+                    "./img/ramones-4holes-black-milk-1.jpg",
+                    "./img/ramones-4holes-black-milk-2.jpg",
+                    "./img/ramones-4holes-black-milk-3.jpg",
+                    "./img/ramones-4holes-black-milk-4.jpg",
+                ],
+                name: "Rick Owens Ramones 4 Holes in Black/Milk",
+                prices: {
+                    excellent: "5200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "olive-milk",
+                images: [
+                    "./img/ramones-4holes-olive-milk-1.jpg",
+                    "https://cdn.clothbase.com/uploads/8bc0da7d-d936-4947-a742-052325c13aec/khaki-luxor-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/dbf970b7-d41e-41f7-9efe-cd4f7373f14b/khaki-luxor-sneakers.jpg",
+                    "https://cdn.clothbase.com/uploads/f964d4eb-c369-4a4a-882d-c67391c5de63/khaki-luxor-sneakers.jpg",
+                ],
+                name: "Rick Owens Ramones 4 Holes in Olive/Milk",
+                prices: {
+                    excellent: "5200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-milk-1",
+                images: [
+                    "./img/ramones-eyelets-black-milk-1.jpg",
+                    "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/8b751ff1f445e007862650b47c670556.webp",
+                    "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/e74bb0b2526c6c2681f80283b466c9e9.webp",
+                    "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/dd5db8e2f2b4c765f51a4c1884083ebb.webp",
+                ],
+                name: "Rick Owens Ramones Eyelets in Black/Milk",
+                prices: {
+                    excellent: "5400 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-milk", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>
