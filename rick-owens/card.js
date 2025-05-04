@@ -1,6 +1,7 @@
 const geobasket = document.querySelector('#geobasket'),
       dunks = document.querySelector('#dunks'),
-      ramones = document.querySelector('#ramones');
+      ramones = document.querySelector('#ramones'),
+      ramonesLow = document.querySelector('#ramones-low')
 
 const rickMainMenu = [
     {
@@ -284,12 +285,135 @@ const rickMainMenu = [
     {
         title: 'Ramones Puffer',
         images: [
-            "./img/ramones-puffer-black-milk-1.jpg",
             "./img/ramones-puffer-leather-black-milk-1.jpg",
+            "./img/ramones-puffer-black-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-puffer.html",
         parent: ramones,
+    },
+    {
+        title: 'Ramones Low',
+        images: [
+            "./img/ramones-low-black-milk-1.jpg",
+            "./img/ramones-low-olive-denim-milk-1.jpg",
+            "./img/ramones-low-olive-milk-1.jpg",
+            "./img/ramones-low-black-1.jpg",
+            "./img/ramones-low-milk-1.jpg",
+            "./img/ramones-low-eyelets-black-1.jpg",
+            "./img/ramones-low-taped-milk-1.jpg",
+        ],
+        colors: 7,
+        href: "./ramones-low.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Leather',
+        images: [
+            "./img/ramones-low-leather-black-milk-1.jpg",
+            "./img/ramones-low-leather-black-light-gum-1.jpg",
+            "./img/ramones-low-leather-olive-milk-1.jpg",
+            "./img/ramones-low-leather-purple-milk-1.jpg",
+            "./img/ramones-low-leather-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-low-leather.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Wax and Satin',
+        images: [
+            "./img/ramones-low-wax-black-milk-1.jpg",
+            "./img/ramones-low-satin-black-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./ramones-low-wax-satin.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Fur',
+        images: [
+            "./img/ramones-low-fur-olive-milk-1.jpg",
+            "./img/ramones-low-fur-black-milk-1.jpg",
+            "./img/ramones-low-fur-grey-milk-1.jpg",
+            "./img/ramones-low-fur-orange-milk-1.jpg",
+            "./img/ramones-low-fur-pink-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-low-fur.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Puffer',
+        images: [
+            "./img/ramones-low-puffer-black-milk-1.jpg",
+            "./img/ramones-low-puffer-leather-black-milk-1.jpg",
+            "./img/ramones-low-puffer-amethyst-milk-1.jpg",
+            "./img/ramones-low-puffer-green-milk-1.jpg",
+        ],
+        colors: 4,
+        href: "./ramones-low-puffer.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Abstract',
+        images: [
+            "./img/ramones-low-abstract-black-milk-1.jpg",
+            "./img/ramones-low-abstract-black-1.jpg",
+            "./img/ramones-low-abstract-clear-sole-black-milk-1.jpg",
+            "./img/ramones-low-abstract-clear-sole-black-1.jpg",
+            "./img/ramones-low-abstract-jumbolace-black-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-low-abstract.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Jumbolace',
+        images: [
+            "./img/ramones-low-jumbolace-black-milk-1.jpg",
+            "./img/ramones-low-jumbolace-olive-denim-milk-1.jpg",
+            "./img/ramones-low-jumbolace-orange-milk-1.jpg",
+            "./img/ramones-low-jumbolace-black-1.jpg",
+            "./img/ramones-low-jumbolace-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-low-jumbolace.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Jumbolace Leather',
+        images: [
+            "./img/ramones-low-jumbolace-leather-black-milk-1.jpg",
+            "./img/ramones-low-jumbolace-leather-orange-milk-1.jpg",
+            "./img/ramones-low-jumbolace-leather-black-1.jpg",
+        ],
+        colors: 3,
+        href: "./ramones-low-jumbolace-leather.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low DRKSHDW',
+        images: [
+            "./img/ramones-low-drkshdw-black-milk-1.jpg",
+            "./img/ramones-low-drkshdw-olive-denim-milk-1.jpg",
+            "./img/ramones-low-drkshdw-orange-milk-1.jpg",
+            "./img/ramones-low-drkshdw-blue-milk-1.jpg",
+            "./img/ramones-low-drkshdw-logo-black-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-low-drkshdw.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Distressed',
+        images: [
+            "./img/ramones-low-distressed-black-milk-1.jpg",
+            "./img/ramones-low-distressed-pink-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./ramones-low-distressed.html",
+        parent: ramonesLow,
     },
 ];
 
