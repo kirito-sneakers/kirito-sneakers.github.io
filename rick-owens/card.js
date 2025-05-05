@@ -151,7 +151,7 @@ const rickMainMenu = [
         title: 'Ramones Wax and Satin',
         images: [
             "./img/ramones-wax-black-milk-1.jpg",
-            "./img/ramones-suede-brown-milk-1.jpg",
+            "./img/ramones-wax-black-1.jpg",
             "./img/ramones-satin-black-milk-1.jpg",
         ],
         colors: 3,
