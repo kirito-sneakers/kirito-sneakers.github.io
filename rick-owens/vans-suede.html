@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick Owens & Vans Suede</title>
+    <link rel="shortcut icon" href="./../img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+
+            <div class="item-info">
+                <h2 class="oswald-medium">Balenciaga 3xl Sneaker</h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <p>Price</p>
+                    <ul>
+                        <li>Excellent Quality - 5500 ₴</li>
+                        <li>Good Quality - 4600 ₴</li>
+                        <li>Middle Quality - 3700 ₴</li>
+                    </ul>
+                    <p>Sizes: 35-45</p>
+                    <a href="./../info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./../gallary.js"></script>
+    <script src="./../script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5500 ₴",
+                good: "4600 ₴",
+                middle: "3700 ₴"
+            },
+            sizes: "36-46",
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-milk",
+                images: [
+                    "./img/vans-suede-black-milk-1.jpg",
+                    "./img/vans-suede-black-milk-2.jpg",
+                    "./img/vans-suede-black-milk-3.jpg",
+                    "./img/vans-suede-black-milk-4.jpg",
+                ],
+                name: "Rick Owens & Vans Suede in Black/Milk",
+                prices: {
+                    excellent: "6800 ₴",
+                    good: "5400 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "brown-milk",
+                images: [
+                    "./img/vans-suede-brown-milk-1.jpg",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20221107/f76fc7738627480cb68c7a397a515e54.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20221107/d435a1296fe948e2ae8e13e661d15221.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20240122/c564d83baea947769c277e487b4e9808.jpg?x-oss-process=image/format,webp/resize,w_800",
+                ],
+                name: "Rick Owens & Vans Suede in Brown/Milk",
+                prices: {
+                    excellent: "6800 ₴",
+                    good: "5400 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "pink-milk",
+                images: [
+                    "./img/vans-suede-pink-milk-1.jpg",
+                    "./img/vans-suede-pink-milk-2.jpg",
+                    "./img/vans-suede-pink-milk-3.jpg",
+                ],
+                name: "Rick Owens & Vans Suede in Pink/Milk",
+                prices: {
+                    excellent: "6800 ₴",
+                    good: "5400 ₴",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-milk", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+    </script>
+</body>
+</html>
