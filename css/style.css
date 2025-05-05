@@ -825,6 +825,21 @@ main {
     }
 }
 
+.blue-black {
+    background-color: #000;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: rgb(196, 209, 234);
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+
 .orange {
     background-color: orange;
 }

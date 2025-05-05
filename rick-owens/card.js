@@ -1,7 +1,8 @@
 const geobasket = document.querySelector('#geobasket'),
       dunks = document.querySelector('#dunks'),
       ramones = document.querySelector('#ramones'),
-      ramonesLow = document.querySelector('#ramones-low')
+      ramonesLow = document.querySelector('#ramones-low'),
+      vans = document.querySelector('#vans');
 
 const rickMainMenu = [
     {
@@ -414,6 +415,84 @@ const rickMainMenu = [
         colors: 2,
         href: "./ramones-low-distressed.html",
         parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Pentagram',
+        images: [
+            "./img/ramones-low-pentagram-black-milk-1.jpg",
+            "./img/ramones-low-pentagram-white-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./ramones-low-pentagram.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Megabumper',
+        images: [
+            "./img/ramones-low-megabumper-black-milk-1.jpg",
+            "./img/ramones-low-megabumper-black-1.jpg",
+            "./img/ramones-low-megabumper-leather-black-milk-1.jpg",
+        ],
+        colors: 3,
+        href: "./ramones-low-megabumper.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Vans',
+        images: [
+            "./img/vans-black-milk-1.jpg",
+            "./img/vans-pink-milk-1.jpg",
+            "./img/vans-milk-black-1.jpg",
+            "./img/vans-blue-black-1.jpg",
+        ],
+        colors: 4,
+        href: "./vans.html",
+        parent: vans,
+    },
+    {
+        title: 'Vans Leather',
+        images: [
+            "./img/vans-leather-black-milk-1.jpg",
+            "./img/vans-leather-grey-milk-1.jpg",
+            "./img/vans-leather-orange-milk-1.jpg",
+            "./img/vans-leather-milk-1.jpg",
+        ],
+        colors: 4,
+        href: "./vans-leather.html",
+        parent: vans,
+    },
+    {
+        title: 'Vans Suede',
+        images: [
+            "./img/vans-suede-black-milk-1.jpg",
+            "./img/vans-suede-brown-milk-1.jpg",
+            "./img/vans-suede-pink-milk-1.jpg",
+        ],
+        colors: 3,
+        href: "./vans-suede.html",
+        parent: vans,
+    },
+    {
+        title: 'Vans Fur',
+        images: [
+            "./img/vans-fur-black-milk-1.jpg",
+            "./img/vans-fur-red-milk-1.jpg",
+            "./img/vans-fur-pink-milk-1.jpg",
+            "./img/vans-fur-green-milk-1.jpg",
+        ],
+        colors: 4,
+        href: "./vans-fur.html",
+        parent: vans,
+    },
+    {
+        title: 'Vans High',
+        images: [
+            "./img/vans-high-black-milk-1.jpg",
+            "./img/vans-high-leather-black-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./vans-high.html",
+        parent: vans,
     },
 ];
 
