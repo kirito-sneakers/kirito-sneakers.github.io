@@ -1284,7 +1284,10 @@ main.alternative-header {
 .watch-all {
     display: flex;
     height: 100px;
+    padding: 50px 0 100px 0;
     border-bottom: 1px solid #111;
+    border-top: 1px solid #111;
+    margin-top: -1px;
     align-items: center;
     justify-content: center;
 }
@@ -1687,13 +1690,19 @@ footer {
     .mein-menu {
         .list-item {
             aspect-ratio: 1 / 1.55;
+            .swiper {
+                .swiper-pagination {
+                    bottom: 0;
+                    --swiper-pagination-bullet-size: 3px;
+                }
+            }
         }
     }
 }
 
 @media (max-width: 635px) {
     .section-header {
-        height: 200px;
+        height: 500px;
     }
     .mein-menu {
         .list-item {
@@ -1716,7 +1725,7 @@ footer {
     }
 }
 
-@media (max-width: 535px) {
+@media (max-width: 556px) {
     .brand-logo {
         img {
             height: 150px;
@@ -1766,7 +1775,7 @@ footer {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 490px) {
     main.alternative-header {
         padding-top: 60px;
     }
@@ -1792,10 +1801,34 @@ footer {
                 width: 70%;
             }
         }
+        .list-item {
+            .save-card {
+                .container .save-regular {
+                    position: absolute;
+                    animation: keyframes-fill 0.5s;
+                    transform-origin: top;
+                    height: 25px;
+                  }
+                  
+                  .container .save-solid {
+                    position: absolute;
+                    animation: keyframes-fill 0.5s;
+                    display: none;
+                    transform-origin: top;
+                    height: 25px;
+                  }
+            }
+            .swiper {
+                .swiper-pagination {
+                    bottom: 0;
+                    --swiper-pagination-bullet-size: 3px;
+                }
+            }
+        }
     }
 
     .section-header {
-        height: 150px;
+        height: 400px;
     }
     .mein-menu {
         .list-item {
@@ -1850,26 +1883,7 @@ footer {
             }
         }
     }
-    .mein-menu {
-        .list-item {
-            .save-card {
-                .container .save-regular {
-                    position: absolute;
-                    animation: keyframes-fill 0.5s;
-                    transform-origin: top;
-                    height: 25px;
-                  }
-                  
-                  .container .save-solid {
-                    position: absolute;
-                    animation: keyframes-fill 0.5s;
-                    display: none;
-                    transform-origin: top;
-                    height: 25px;
-                  }
-            }
-        }
-    }
+
     .about-us {
         h1 {
             margin-bottom: 40px;
@@ -1896,7 +1910,7 @@ footer {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 397px) {
     .brand-logo {
         img {
             height: 140px;
@@ -1918,7 +1932,7 @@ footer {
         .list-item {
             aspect-ratio: 1 / 1.95;
             h3 {
-                font-size: 14px;
+                font-size: 12px;
                 width: 70%;
             }
         }

@@ -21,27 +21,14 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Geobasket Jumbolace',
+        title: 'Geobasket Suede',
         images: [
-            "./img/geobasket-jumbolace-black-milk-1.jpg",
-            "./img/geobasket-jumbolace-pink-milk-1.jpg",
-            "./img/geobasket-jumbolace-grey-1.jpg",
-            "./img/geobasket-jumbolace-light-grey-1.jpg",
-            "./img/geobasket-jumbolace-black-1.jpg",
-            "./img/geobasket-jumbolace-milk-1.jpg",
+            "./img/geobasket-suede-black-milk-1.jpg",
+            "./img/geobasket-suede-brown-milk-1.jpg",
+            "./img/geobasket-suede-pink-milk-1.jpg",
         ],
-        colors: 6,
-        href: "./geobasket-jumbolace.html",
-        parent: geobasket,
-    },
-    {
-        title: 'Geobasket Megalace',
-        images: [
-            "./img/geobasket-pentagram-black-white-1.jpg",
-            "./img/geobasket-pentagram-white-black-1.jpg",
-        ],
-        colors: 2,
-        href: "./geobasket-megalace.html",
+        colors: 3,
+        href: "./geobasket-suede.html",
         parent: geobasket,
     },
     {
@@ -60,14 +47,27 @@ const rickMainMenu = [
         parent: geobasket,
     },
     {
-        title: 'Geobasket Suede',
+        title: 'Geobasket Megalace',
         images: [
-            "./img/geobasket-suede-black-milk-1.jpg",
-            "./img/geobasket-suede-brown-milk-1.jpg",
-            "./img/geobasket-suede-pink-milk-1.jpg",
+            "./img/geobasket-pentagram-black-white-1.jpg",
+            "./img/geobasket-pentagram-white-black-1.jpg",
         ],
-        colors: 3,
-        href: "./geobasket-suede.html",
+        colors: 2,
+        href: "./geobasket-megalace.html",
+        parent: geobasket,
+    },
+    {
+        title: 'Geobasket Jumbolace',
+        images: [
+            "./img/geobasket-jumbolace-black-milk-1.jpg",
+            "./img/geobasket-jumbolace-pink-milk-1.jpg",
+            "./img/geobasket-jumbolace-grey-1.jpg",
+            "./img/geobasket-jumbolace-light-grey-1.jpg",
+            "./img/geobasket-jumbolace-black-1.jpg",
+            "./img/geobasket-jumbolace-milk-1.jpg",
+        ],
+        colors: 6,
+        href: "./geobasket-jumbolace.html",
         parent: geobasket,
     },
     {
@@ -92,8 +92,8 @@ const rickMainMenu = [
     {
         title: 'Dunk',
         images: [
-            "./img/dunk-milk-black-1.jpg",
             "./img/dunk-black-milk-1.jpg",
+            "./img/dunk-milk-black-1.jpg",
             "./img/dunk-black-1.jpg",
             "./img/dunk-milk-1.jpg",
         ],
@@ -152,21 +152,10 @@ const rickMainMenu = [
         images: [
             "./img/ramones-wax-black-milk-1.jpg",
             "./img/ramones-suede-brown-milk-1.jpg",
+            "./img/ramones-satin-black-milk-1.jpg",
         ],
         colors: 3,
         href: "./ramones-wax-satin.html",
-        parent: ramones,
-    },
-    {
-        title: 'Ramones Hexagram',
-        images: [
-            "./img/ramones-hexagram-black-milk-1.jpg",
-            "./img/ramones-hexagram-blue-milk-1.jpg",
-            "./img/ramones-hexagram-milk-1.jpg",
-            "./img/ramones-hexagram-jumbolace-black-milk-1.jpg",
-        ],
-        colors: 4,
-        href: "./ramones-hexagram.html",
         parent: ramones,
     },
     {
@@ -180,25 +169,13 @@ const rickMainMenu = [
         parent: ramones,
     },
     {
-        title: 'Ramones Monochrome',
-        images: [
-            "./img/ramones-monochrome-black-milk-1.jpg",
-            "./img/ramones-monochrome-olive-denim-milk-1.jpg",
-            "./img/ramones-monochrome-black-1.jpg",
-            "./img/ramones-monochrome-milk-1.jpg",
-        ],
-        colors: 4,
-        href: "./ramones-monochrome.html",
-        parent: ramones,
-    },
-    {
         title: 'Ramones DRKSHDW',
         images: [
             "./img/ramones-drkshdw-black-milk-1.jpg",
-            "./img/ramones-drkshdw-white-milk-1.jpg",
-            "./img/ramones-drkshdw-orange-milk-1.jpg",
             "./img/ramones-drkshdw-olive-denim-milk-1.jpg",
+            "./img/ramones-drkshdw-orange-milk-1.jpg",
             "./img/ramones-drkshdw-blue-milk-1.jpg",
+            "./img/ramones-drkshdw-white-milk-1.jpg",
             "./img/ramones-drkshdw-logo-black-milk-1.jpg",
         ],
         colors: 6,
@@ -217,6 +194,18 @@ const rickMainMenu = [
         parent: ramones,
     },
     {
+        title: 'Ramones Monochrome',
+        images: [
+            "./img/ramones-monochrome-black-milk-1.jpg",
+            "./img/ramones-monochrome-olive-denim-milk-1.jpg",
+            "./img/ramones-monochrome-black-1.jpg",
+            "./img/ramones-monochrome-milk-1.jpg",
+        ],
+        colors: 4,
+        href: "./ramones-monochrome.html",
+        parent: ramones,
+    },
+    {
         title: 'Ramones Fur',
         images: [
             "./img/ramones-fur-olive-milk-1.jpg",
@@ -231,14 +220,62 @@ const rickMainMenu = [
         parent: ramones,
     },
     {
+        title: 'Ramones Hexagram',
+        images: [
+            "./img/ramones-hexagram-black-milk-1.jpg",
+            "./img/ramones-hexagram-blue-milk-1.jpg",
+            "./img/ramones-hexagram-milk-1.jpg",
+            "./img/ramones-hexagram-jumbolace-black-milk-1.jpg",
+        ],
+        colors: 4,
+        href: "./ramones-hexagram.html",
+        parent: ramones,
+    },
+    {
+        title: 'Ramones Jumbolace',
+        images: [
+            "./img/ramones-jumbolace-black-milk-1.jpg",
+            "./img/ramones-jumbolace-olive-denim-milk-1.jpg",
+            "./img/ramones-jumbolace-orange-milk-1.jpg",
+            "./img/ramones-jumbolace-white-milk-1.jpg",
+            "./img/ramones-jumbolace-black-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-jumbolace.html",
+        parent: ramones,
+    },
+    {
+        title: 'Ramones Jumbolace Leather',
+        images: [
+            "./img/ramones-leather-jumbolace-black-milk-1.jpg",
+            "./img/ramones-leather-jumbolace-grey-milk-1.jpg",
+            "./img/ramones-leather-jumbolace-orange-milk-1.jpg",
+            "./img/ramones-leather-jumbolace-black-1.jpg",
+            "./img/ramones-leather-jumbolace-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-leather-jumbolace.html",
+        parent: ramones,
+    },
+    {
+        title: 'Ramones Puffer',
+        images: [
+            "./img/ramones-puffer-leather-black-milk-1.jpg",
+            "./img/ramones-puffer-black-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./ramones-puffer.html",
+        parent: ramones,
+    },
+    {
         title: 'Ramones Megabumper',
         images: [
             "./img/ramones-megabumper-black-milk-1.jpg",
             "./img/ramones-megabumper-black-1.jpg",
-            "./img/ramones-leather-megabumper-black-milk-1.jpg",
-            "./img/ramones-leather-megabumper-black-1.jpg",
             "./img/ramones-pentagram-megabumper-black-milk-1.jpg",
             "./img/ramones-pentagram-black-1.jpg",
+            "./img/ramones-leather-megabumper-black-milk-1.jpg",
+            "./img/ramones-leather-megabumper-black-1.jpg",
         ],
         colors: 6,
         href: "./ramones-megabumper.html",
@@ -255,42 +292,6 @@ const rickMainMenu = [
         ],
         colors: 5,
         href: "./ramones-abstract.html",
-        parent: ramones,
-    },
-    {
-        title: 'Ramones Jumbolace',
-        images: [
-            "./img/ramones-jumbolace-black-milk-1.jpg",
-            "./img/ramones-jumbolace-white-milk-1.jpg",
-            "./img/ramones-jumbolace-orange-milk-1.jpg",
-            "./img/ramones-jumbolace-olive-denim-milk-1.jpg",
-            "./img/ramones-jumbolace-black-1.jpg",
-        ],
-        colors: 5,
-        href: "./ramones-jumbolace.html",
-        parent: ramones,
-    },
-    {
-        title: 'Ramones Leather Jumbolace',
-        images: [
-            "./img/ramones-leather-jumbolace-black-milk-1.jpg",
-            "./img/ramones-leather-jumbolace-orange-milk-1.jpg",
-            "./img/ramones-leather-jumbolace-grey-milk-1.jpg",
-            "./img/ramones-leather-jumbolace-black-1.jpg",
-            "./img/ramones-leather-jumbolace-milk-1.jpg",
-        ],
-        colors: 5,
-        href: "./ramones-leather-jumbolace.html",
-        parent: ramones,
-    },
-    {
-        title: 'Ramones Puffer',
-        images: [
-            "./img/ramones-puffer-leather-black-milk-1.jpg",
-            "./img/ramones-puffer-black-milk-1.jpg",
-        ],
-        colors: 2,
-        href: "./ramones-puffer.html",
         parent: ramones,
     },
     {
@@ -313,8 +314,8 @@ const rickMainMenu = [
         images: [
             "./img/ramones-low-leather-black-milk-1.jpg",
             "./img/ramones-low-leather-black-light-gum-1.jpg",
-            "./img/ramones-low-leather-olive-milk-1.jpg",
             "./img/ramones-low-leather-purple-milk-1.jpg",
+            "./img/ramones-low-leather-olive-milk-1.jpg",
             "./img/ramones-low-leather-milk-1.jpg",
         ],
         colors: 5,
@@ -332,6 +333,39 @@ const rickMainMenu = [
         parent: ramonesLow,
     },
     {
+        title: 'Ramones Low Pentagram',
+        images: [
+            "./img/ramones-low-pentagram-black-milk-1.jpg",
+            "./img/ramones-low-pentagram-white-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./ramones-low-pentagram.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low DRKSHDW',
+        images: [
+            "./img/ramones-low-drkshdw-black-milk-1.jpg",
+            "./img/ramones-low-drkshdw-olive-denim-milk-1.jpg",
+            "./img/ramones-low-drkshdw-orange-milk-1.jpg",
+            "./img/ramones-low-drkshdw-blue-milk-1.jpg",
+            "./img/ramones-low-drkshdw-logo-black-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-low-drkshdw.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Ramones Low Distressed',
+        images: [
+            "./img/ramones-low-distressed-black-milk-1.jpg",
+            "./img/ramones-low-distressed-pink-milk-1.jpg",
+        ],
+        colors: 2,
+        href: "./ramones-low-distressed.html",
+        parent: ramonesLow,
+    },
+    {
         title: 'Ramones Low Fur',
         images: [
             "./img/ramones-low-fur-olive-milk-1.jpg",
@@ -342,31 +376,6 @@ const rickMainMenu = [
         ],
         colors: 5,
         href: "./ramones-low-fur.html",
-        parent: ramonesLow,
-    },
-    {
-        title: 'Ramones Low Puffer',
-        images: [
-            "./img/ramones-low-puffer-black-milk-1.jpg",
-            "./img/ramones-low-puffer-leather-black-milk-1.jpg",
-            "./img/ramones-low-puffer-amethyst-milk-1.jpg",
-            "./img/ramones-low-puffer-green-milk-1.jpg",
-        ],
-        colors: 4,
-        href: "./ramones-low-puffer.html",
-        parent: ramonesLow,
-    },
-    {
-        title: 'Ramones Low Abstract',
-        images: [
-            "./img/ramones-low-abstract-black-milk-1.jpg",
-            "./img/ramones-low-abstract-black-1.jpg",
-            "./img/ramones-low-abstract-clear-sole-black-milk-1.jpg",
-            "./img/ramones-low-abstract-clear-sole-black-1.jpg",
-            "./img/ramones-low-abstract-jumbolace-black-milk-1.jpg",
-        ],
-        colors: 5,
-        href: "./ramones-low-abstract.html",
         parent: ramonesLow,
     },
     {
@@ -394,36 +403,15 @@ const rickMainMenu = [
         parent: ramonesLow,
     },
     {
-        title: 'Ramones Low DRKSHDW',
+        title: 'Ramones Low Puffer',
         images: [
-            "./img/ramones-low-drkshdw-black-milk-1.jpg",
-            "./img/ramones-low-drkshdw-olive-denim-milk-1.jpg",
-            "./img/ramones-low-drkshdw-orange-milk-1.jpg",
-            "./img/ramones-low-drkshdw-blue-milk-1.jpg",
-            "./img/ramones-low-drkshdw-logo-black-milk-1.jpg",
+            "./img/ramones-low-puffer-black-milk-1.jpg",
+            "./img/ramones-low-puffer-leather-black-milk-1.jpg",
+            "./img/ramones-low-puffer-amethyst-milk-1.jpg",
+            "./img/ramones-low-puffer-green-milk-1.jpg",
         ],
-        colors: 5,
-        href: "./ramones-low-drkshdw.html",
-        parent: ramonesLow,
-    },
-    {
-        title: 'Ramones Low Distressed',
-        images: [
-            "./img/ramones-low-distressed-black-milk-1.jpg",
-            "./img/ramones-low-distressed-pink-milk-1.jpg",
-        ],
-        colors: 2,
-        href: "./ramones-low-distressed.html",
-        parent: ramonesLow,
-    },
-    {
-        title: 'Ramones Low Pentagram',
-        images: [
-            "./img/ramones-low-pentagram-black-milk-1.jpg",
-            "./img/ramones-low-pentagram-white-milk-1.jpg",
-        ],
-        colors: 2,
-        href: "./ramones-low-pentagram.html",
+        colors: 4,
+        href: "./ramones-low-puffer.html",
         parent: ramonesLow,
     },
     {
@@ -438,7 +426,20 @@ const rickMainMenu = [
         parent: ramonesLow,
     },
     {
-        title: 'Vans',
+        title: 'Ramones Low Abstract',
+        images: [
+            "./img/ramones-low-abstract-black-milk-1.jpg",
+            "./img/ramones-low-abstract-black-1.jpg",
+            "./img/ramones-low-abstract-clear-sole-black-milk-1.jpg",
+            "./img/ramones-low-abstract-clear-sole-black-1.jpg",
+            "./img/ramones-low-abstract-jumbolace-black-milk-1.jpg",
+        ],
+        colors: 5,
+        href: "./ramones-low-abstract.html",
+        parent: ramonesLow,
+    },
+    {
+        title: 'Rick Owens & Vans',
         images: [
             "./img/vans-black-milk-1.jpg",
             "./img/vans-pink-milk-1.jpg",
@@ -450,7 +451,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Vans Leather',
+        title: 'Rick Owens & Vans Leather',
         images: [
             "./img/vans-leather-black-milk-1.jpg",
             "./img/vans-leather-grey-milk-1.jpg",
@@ -462,7 +463,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Vans Suede',
+        title: 'Rick Owens & Vans Suede',
         images: [
             "./img/vans-suede-black-milk-1.jpg",
             "./img/vans-suede-brown-milk-1.jpg",
@@ -473,7 +474,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Vans Fur',
+        title: 'Rick Owens & Vans Fur',
         images: [
             "./img/vans-fur-black-milk-1.jpg",
             "./img/vans-fur-red-milk-1.jpg",
@@ -485,7 +486,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Vans High',
+        title: 'Rick Owens & Vans High',
         images: [
             "./img/vans-high-black-milk-1.jpg",
             "./img/vans-high-leather-black-milk-1.jpg",

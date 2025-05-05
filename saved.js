@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Словарь ключевых слов по брендам
     const BRAND_KEYWORDS = {
-        'rick-owens': ['geobasket', 'ramones', 'dunks', 'vans'],
+        'rick-owens': ['geobasket', 'ramones', 'dunk', 'vans'],
         'balenciaga': ['3xl', 'track', 'runner', 'triple s', 'defender', '10xl', '6xl', 'cargo', 'circuit', 'stapler', 'x-pander', 'hike'],
     };
 

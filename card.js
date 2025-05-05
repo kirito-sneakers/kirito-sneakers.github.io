@@ -1,4 +1,4 @@
-const balenciagaMainMenu = [
+const mainMenu = [
     {
         title: 'balenciaga 3xl',
         images: [
@@ -10,6 +10,7 @@ const balenciagaMainMenu = [
         ],
         href: "./balenciaga/index.html#three_xl_title",
         models: 5,
+        parentSelector: '.balenciaga-menu',
     },
     {
         title: 'balenciaga track',
@@ -22,6 +23,7 @@ const balenciagaMainMenu = [
         ],
         href: "./balenciaga/index.html#track_title",
         models: 5,
+        parentSelector: '.balenciaga-menu',
     },
     {
         title: 'balenciaga runner',
@@ -35,6 +37,7 @@ const balenciagaMainMenu = [
         ],
         href: "./balenciaga/index.html#runner_title",
         models: 6,
+        parentSelector: '.balenciaga-menu',
     },
     {
         title: 'balenciaga triple s',
@@ -46,94 +49,95 @@ const balenciagaMainMenu = [
         ],
         href: "./balenciaga/index.html#triple_s_title",
         models: 4,
+        parentSelector: '.balenciaga-menu',
     },
-    // {
-    //     title: 'balenciaga 10xl',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/560e23f9969803e4/eCom-792779W2MV21000_F.jpg?v=2"
-    //     ],
-    //     href: "https://google.com",
-    // },
-    // {
-    //     title: 'balenciaga cargo',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/614246a71e653806/Large-542436W1GB11000_F.jpg?v=5",
-    //     ],
-    //     href: "https://google.com",
-    // },
-    // {
-    //     title: 'balenciaga 6xl',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/617971650f6142f1/Large-815859W2MV21012_F.jpg?v=1",
-    //         "https://balenciaga.dam.kering.com/m/4f46d9a6f4fa8b25/Large-815859W2MV29000_F.jpg?v=2",
-    //     ],
-    //     href: "https://google.com",
-    // },
-    // {
-    //     title: 'balenciaga triple s',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/3af9cb97f6786d10/Large-533882W09OM1000_F.jpg?v=5",
-    //         "https://balenciaga.dam.kering.com/m/3854d991a1d9606c/Large-524039W2FW19700_F.jpg?v=4",
-    //         "https://balenciaga.dam.kering.com/m/7b7c9495c7df7055/Large-542436W3AC48071_F.jpg?v=3",
-    //         "https://balenciaga.dam.kering.com/m/61e97b5971411bf7/Large-690494W3GN11000_F.jpg?v=3"
-
-    //     ],
-    //     href: "https://google.com",
-    // },
-    // {
-    //     title: 'balenciaga stapler',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/2e0ee84686216d11/Large-803681W3ST41000_F.jpg?v=6",
-    //         "https://balenciaga.dam.kering.com/m/1aad72d936194d08/eCom-803681W3ST49571_F.jpg?v=6",
-    //     ],
-    //     href: "https://google.com",
-    // },
-    // {
-    //     title: 'balenciaga hike',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/5bfd2f3a6a33b201/Large-804921WHIKE1000_F.jpg?v=1",
-    //         "https://balenciaga.dam.kering.com/m/6c722f8913e47b23/Large-804921WHIKE2070_F.jpg?v=2",
-    //     ],
-    //     href: "https://google.com",
-    // },
-    // {
-    //     title: 'balenciaga circuit',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/74a33619c016a3e8/Large-793944WFLGY1000_F.jpg?v=1",
-    //         "https://balenciaga.dam.kering.com/m/2ec73fef5082a501/Large-793944WFLGY9100_F.jpg?v=1",
-    //     ],
-    //     href: "https://google.com",
-    // },
-    // {
-    //     title: 'balenciaga x-pander',
-    //     images: [
-    //         "https://balenciaga.dam.kering.com/m/3af9cb97f6786d10/Large-533882W09OM1000_F.jpg?v=5",
-    //         "https://balenciaga.dam.kering.com/m/3854d991a1d9606c/Large-524039W2FW19700_F.jpg?v=4",
-    //         "https://balenciaga.dam.kering.com/m/7b7c9495c7df7055/Large-542436W3AC48071_F.jpg?v=3",
-    //         "https://balenciaga.dam.kering.com/m/61e97b5971411bf7/Large-690494W3GN11000_F.jpg?v=3"
-
-    //     ],
-    //     href: "https://google.com",
-    // },
+    {
+        title: 'rick owens geobasket',
+        images: [
+            "./rick-owens/img/geobasket-black-milk-1.jpg",
+            "./rick-owens/img/geobasket-suede-black-milk-1.jpg",
+            "./rick-owens/img/geobasket-fur-green-milk-1.jpg",
+            "./rick-owens/img/geobasket-pentagram-black-white-1.jpg",
+            "./rick-owens/img/geobasket-jumbolace-black-milk-1.jpg",
+            "./rick-owens/img/geobasket-megabumper-black-milk-1.jpg",
+            "./rick-owens/img/geobasket-chrome-hearts-geobasketblack-milk-1.jpg",
+        ],
+        href: "./rick-owens/index.html#geobasket_title",
+        models: 7,
+        parentSelector: '.rick-owens-menu',
+    },
+    {
+        title: 'rick owens ramones',
+        images: [
+            "./rick-owens/img/ramones-leather-black-white-1.jpg",
+            "./rick-owens/img/ramones-black-milk-1.jpg",
+            "./rick-owens/img/ramones-hexagram-black-milk-1.jpg",
+            "./rick-owens/img/ramones-pentagram-black-milk-1.jpg",
+            "./rick-owens/img/ramones-drkshdw-black-milk-1.jpg",
+            "./rick-owens/img/ramones-4holes-black-milk-1.jpg",
+            "./rick-owens/img/ramones-fur-olive-milk-1.jpg",
+            "./rick-owens/img/ramones-leather-jumbolace-black-milk-1.jpg",
+            "./rick-owens/img/ramones-puffer-leather-black-milk-1.jpg",
+            "./rick-owens/img/ramones-megabumper-black-milk-1.jpg",
+            "./rick-owens/img/ramones-abstract-black-milk-1.jpg",
+        ],
+        href: "./rick-owens/index.html#ramones_title",
+        models: 15,
+        parentSelector: '.rick-owens-menu',
+    },
+    {
+        title: 'rick owens ramones low',
+        images: [
+            "./rick-owens/img/ramones-low-leather-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-pentagram-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-drkshdw-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-distressed-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-fur-olive-milk-1.jpg",
+            "./rick-owens/img/ramones-low-jumbolace-leather-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-puffer-leather-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-megabumper-black-milk-1.jpg",
+            "./rick-owens/img/ramones-low-abstract-black-milk-1.jpg",
+        ],
+        href: "./rick-owens/index.html#ramones-low_title",
+        models: 12,
+        parentSelector: '.rick-owens-menu',
+    },
+    {
+        title: 'Rick Owens & Vans',
+        images: [
+            "./rick-owens/img/vans-leather-black-milk-1.jpg",
+            "./rick-owens/img/vans-black-milk-1.jpg",
+            "./rick-owens/img/vans-suede-black-milk-1.jpg",
+            "./rick-owens/img/vans-fur-black-milk-1.jpg",
+            "./rick-owens/img/vans-high-black-milk-1.jpg",
+        ],
+        href: "./rick-owens/index.html#vans_title",
+        models: 5,
+        parentSelector: '.rick-owens-menu',
+    },
 ];
 
-const parentContainer = document.querySelector('.mein-menu');
-
 class MainMenu {
-    constructor(title, images, href, parent, models) {
+    constructor(title, images, href, parentSelector, models) {
         this.title = title;
         this.images = images;
-        this.parent = parent;
+        this.parent = document.querySelector(parentSelector);
         this.href = href;
         this.models = models;
     }
 
     render() {
-        const element = document.createElement('article');
-        element.classList.add('list-item' , 'main-list');
+        if (!this.parent) {
+            console.warn(`Parent container not found for selector: ${this.parent}`);
+            return;
+        }
 
-        const slides = this.images.map(imgSrc => 
-            `<a href=${this.href} class="swiper-slide"><img src="${imgSrc}" alt="${this.title}" /></a>`
+        const element = document.createElement('article');
+        element.classList.add('list-item', 'main-list');
+
+        const slides = this.images.map(imgSrc =>
+            `<a href="${this.href}" class="swiper-slide"><img src="${imgSrc}" alt="${this.title}" /></a>`
         ).join('');
 
         element.innerHTML = `
@@ -146,7 +150,7 @@ class MainMenu {
                 <div class="swiper-button-next"></div>
             </div>
             <h3 class="oswald-medium">${this.title}</h3>
-            <p class="montserrat-light">${this.models} categories</p
+            <p class="montserrat-light">${this.models} categories</p>
         `;
 
         this.parent.append(element);
@@ -155,16 +159,16 @@ class MainMenu {
             direction: 'horizontal',
             loop: true,
             pagination: {
-                el: '.swiper-pagination',
+                el: element.querySelector('.swiper-pagination'),
             },
             navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+                nextEl: element.querySelector('.swiper-button-next'),
+                prevEl: element.querySelector('.swiper-button-prev'),
             },
         });
     }
 }
 
-balenciagaMainMenu.forEach(item => {
-    new MainMenu(item.title, item.images, item.href, parentContainer, item.models).render();
+mainMenu.forEach(item => {
+    new MainMenu(item.title, item.images, item.href, item.parentSelector, item.models).render();
 });
