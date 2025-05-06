@@ -36,9 +36,9 @@ const rickMainMenu = [
         images: [
             "./img/geobasket-fur-green-milk-1.jpg",
             "./img/geobasket-fur-black-milk-1.jpg",
+            "./img/geobasket-fur-grey-milk-1.jpg",
             "./img/geobasket-fur-dark-green-milk-1.jpg",
             "./img/geobasket-fur-pink-milk-1.jpg",
-            "./img/geobasket-fur-grey-milk-1.jpg",
             "./img/geobasket-fur-green-white-1.jpg",
             "./img/geobasket-fur-pink-white-1.jpg",
         ],
