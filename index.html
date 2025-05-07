@@ -1,16 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kirito Sneakers</title>
-    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">        
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-</head>
+    <head>
+        <!-- Основні мета-теги -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Kirito Sneakers – магазин реплік кросівок Balenciaga, Rick Owens та інших люкс-брендів.">
+        <meta name="keywords" content="Kirito Sneakers, репліки кросівок, кросівки Balenciaga, Balenciaga репліка, купити кросівки, взуття інтернет-магазин, Rick Owens, купити Rick Owens, купити кросівки Balenciaga Україна, купити кросівки Rick Owens Україна">
+        <meta name="author" content="Kirito Sneakers">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://kirito-sneakers.com/">
+    
+        <!-- Open Graph -->
+        <meta property="og:title" content="Kirito Sneakers – Репліки кросівок люкс-брендів найкращої якості">
+        <meta property="og:description" content="Купуй стильні репліки Balenciaga, Rick Owens та інших люкс-брендів з безкоштовною доставкою по всьому світу.">
+        <meta property="og:image" content="https://kirito-sneakers.com/img/logotype.png">
+        <meta property="og:url" content="https://kirito-sneakers.com">
+        <meta property="og:type" content="website">
+    
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Kirito Sneakers – Репліки кросівок люкс-брендів найкращої якості">
+        <meta name="twitter:description" content="Купуй стильні репліки Balenciaga, Rick Owens та інших люкс-брендів з безкоштовною доставкою по всьому світу.">
+        <meta name="twitter:image" content="https://kirito-sneakers.com/img/logotype.png">
+    
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+        <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+        <meta name="apple-mobile-web-app-title" content="Kirito Sneakers">
+        <meta name="theme-color" content="#000000">
+    
+        <!-- Манифест для PWA -->
+        <link rel="manifest" href="/site.webmanifest">
+        
+        <!-- Шрифти та стилі -->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+        <!-- JSON-LD Structured Data -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Store",
+          "name": "Kirito Sneakers",
+          "image": "https://kirito-sneakers.com/img/logotype.png",
+          "url": "https://kirito-sneakers.com",
+          "sameAs": [
+            "https://www.instagram.com/kirito_sneakers/",
+            "https://t.me/kirito_sneakers",
+            "https://www.tiktok.com/@kirito_sneakers"
+          ],
+          "description": "Магазин реплік кросівок Balenciaga, Rick Owens та інших люкс-брендів.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "UA"
+          }
+        }
+        </script>
+    
+        <title>Kirito Sneakers</title>
+    </head>
+    
 <body>
 
     <main class="alternative-header">
@@ -49,7 +103,7 @@
     <script>
     const header = document.createElement('header');
     header.innerHTML = `
-        <a href="./" class="logo-icon">
+        <a href="./index.html" class="logo-icon">
             <img src="./img/logotype.png" alt="Logo">
         </a>
         <div class="header-icons">
@@ -79,11 +133,11 @@
 
     const footer = document.createElement('footer');
     footer.innerHTML = `
-        <div class="footer-logo"><a href="./"><img src="./img/logotype.png" alt=""></a></div>
+        <div class="footer-logo"><a href="./index.html"><img src="./img/logotype.png" alt=""></a></div>
         <div class="footer-info">
             <a href="https://t.me/kirito_ls" class="oswald-light">написати нам</a>
             <a href="./info.html" class="oswald-light">про нас</a>
-            <a href="./" class="oswald-light">замовити взуття</a>
+            <a href="./index.html" class="oswald-light">замовити взуття</a>
         </div>
         <div class="footer-contacts">
             <a href="https://www.instagram.com/kirito_sneakers/">
