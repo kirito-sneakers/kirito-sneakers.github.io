@@ -60,9 +60,9 @@ const rickMainMenu = [
         title: 'Geobasket Jumbolace',
         images: [
             "./img/geobasket-jumbolace-black-milk-1.jpg",
-            "./img/geobasket-jumbolace-pink-milk-1.jpg",
             "./img/geobasket-jumbolace-grey-1.jpg",
             "./img/geobasket-jumbolace-light-grey-1.jpg",
+            "./img/geobasket-jumbolace-pink-milk-1.jpg",
             "./img/geobasket-jumbolace-black-1.jpg",
             "./img/geobasket-jumbolace-milk-1.jpg",
         ],

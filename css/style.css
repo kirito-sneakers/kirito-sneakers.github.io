@@ -567,7 +567,8 @@ main {
 }
 
 .light-grey-milk {
-        &::before {
+    background-color: #f8ffdd;
+    &::before {
         content: '';
         position: absolute;
         top: 0;
