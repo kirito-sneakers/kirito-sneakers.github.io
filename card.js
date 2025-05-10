@@ -1,6 +1,6 @@
 const mainMenu = [
     {
-        title: 'balenciaga 3xl',
+        title: 'balenci 3xl',
         images: [
             "https://balenciaga.dam.kering.com/m/4db4745c94b6ff59/Large-734731W3XL11010_F.jpg?v=3",
             "https://balenciaga.dam.kering.com/m/17883204e082f5a8/Large-778697W3XLL9191_F.jpg?v=1",
@@ -13,7 +13,7 @@ const mainMenu = [
         parentSelector: '.balenciaga-menu',
     },
     {
-        title: 'balenciaga track',
+        title: 'balenci track',
         images: [
             "https://balenciaga.dam.kering.com/m/614246a71e653806/Large-542436W1GB11000_F.jpg?v=5",
             "https://balenciaga.dam.kering.com/m/4b9e3467ee30cdb0/Large-542023WTRHW1090_F.jpg?v=2",
@@ -26,7 +26,7 @@ const mainMenu = [
         parentSelector: '.balenciaga-menu',
     },
     {
-        title: 'balenciaga runner',
+        title: 'balenci runner',
         images: [
             "./balenciaga/img/runner-black-1.jpg",
             "./balenciaga/img/runner-multicolor-white_black-1.jpg",
@@ -40,7 +40,7 @@ const mainMenu = [
         parentSelector: '.balenciaga-menu',
     },
     {
-        title: 'balenciaga triple s',
+        title: 'balenci triple s',
         images: [
             "https://balenciaga.dam.kering.com/m/3854d991a1d9606c/Large-524039W2FW19700_F.jpg?v=4",
             "./balenciaga/img/triple-s-logotype-white-1.jpg",
