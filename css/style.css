@@ -1105,12 +1105,22 @@ main.alternative-header {
     justify-content: center;
     border-bottom: 1px solid #111;
     .brand-logo-main {
+        position: relative;
         width: 35%;
         height: min-content;
         filter: brightness(0) invert(1);
         align-self: center;
         img {
             width: 100%;
+        }
+        p {
+            font-size: 2vh;
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-10vh);
         }
     }
     &::before {
@@ -1429,12 +1439,21 @@ footer {
 }
 
 .brand-logo {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
     img {
         height: inherit;
+    }
+    p {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 22%;
+        transform: translateX(-50%);
     }
 }
 
@@ -1646,6 +1665,15 @@ footer {
 }
 
 @media (max-width: 850px) {
+    .section-header {
+        height: 500px;
+        .brand-logo-main {
+            p {
+                top: 75%;
+                font-size: 15px
+            }
+        }
+    }
     .mein-menu {
         grid-template-columns: repeat(2, minmax(0px, 1fr));
         .list-item {
@@ -1708,7 +1736,12 @@ footer {
 
 @media (max-width: 635px) {
     .section-header {
-        height: 500px;
+        .brand-logo-main {
+            p {
+                top: 85%;
+                font-size: 13px
+            }
+        }
     }
     .mein-menu {
         .list-item {
@@ -1782,6 +1815,13 @@ footer {
 }
 
 @media (max-width: 490px) {
+    .section-header {
+        .brand-logo-main {
+            p {
+                top: 100%;
+            }
+        }
+    }
     main.alternative-header {
         padding-top: 60px;
     }
@@ -1917,6 +1957,14 @@ footer {
 }
 
 @media (max-width: 397px) {
+    .section-header {
+        .brand-logo-main {
+            p {
+                top: 115%;
+                font-size: 13px
+            }
+        }
+    }
     .brand-logo {
         img {
             height: 140px;
@@ -1934,6 +1982,14 @@ footer {
 }
 
 @media (max-width: 352px) {
+    .section-header {
+        .brand-logo-main {
+            p {
+                top: 135%;
+                font-size: 12px
+            }
+        }
+    }
     .mein-menu {
         .list-item {
             aspect-ratio: 1 / 1.95;
