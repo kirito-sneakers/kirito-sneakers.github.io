@@ -1504,6 +1504,7 @@ footer {
             letter-spacing: 1px;
             max-width: 400px;
             text-align: center;
+            transition: all 0.4s ease;
         }
         .colors {
             max-width: 300px;
