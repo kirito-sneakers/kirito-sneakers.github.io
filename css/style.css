@@ -1135,11 +1135,11 @@ main.alternative-header {
 
 
 .section-header#balenciaga-bg {
-    background-image: url('./../img/balenciagaBg.png');
+    background-image: url('./../img/balenciagaBg.webp');
 }
 
 .section-header#rick-owens-bg {
-    background-image: url('https://cdn.mos.cms.futurecdn.net/ttYtTjh6RndLteFwTfTq6N.jpg');
+    background-image: url('./../img/rickBg.webp');
 }
 
 .mein-menu {

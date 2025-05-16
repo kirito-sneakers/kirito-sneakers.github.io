@@ -137,7 +137,7 @@ class MainMenu {
         element.classList.add('list-item', 'main-list');
 
         const slides = this.images.map(imgSrc =>
-            `<a href="${this.href}" class="swiper-slide"><img src="${imgSrc}" alt="${this.title}" /></a>`
+            `<a href="${this.href}" class="swiper-slide"><img loading="lazy"src="${imgSrc}" alt="${this.title}" /></a>`
         ).join('');
 
         element.innerHTML = `
