@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
         <div class="footer-info">
             <a href="https://t.me/kirito_ls" class="oswald-light">написати нам</a>
             <a href="./../info.html" class="oswald-light">про нас</a>
-            <a href="./../" class="oswald-light">замовити взуття</a>
+            <a href="./../" class="oswald-light">Магазин</a>
         </div>
         <div class="footer-contacts">
             <a href="https://www.instagram.com/kirito_sneakers/">

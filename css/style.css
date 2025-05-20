@@ -1813,6 +1813,9 @@ footer {
         top: 100px;
         z-index: 98;
     }
+    .soon h2 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 490px) {
@@ -1893,6 +1896,7 @@ footer {
     .watch-all a {
         width: 120px;
         height: 50px;
+        font-size: 12px;
     }
     .item {
         display: flex;
