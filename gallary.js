@@ -24,9 +24,9 @@ function updateContent(colorName, commonInfo, colorsData) {
         itemInfo.querySelector("h2").textContent = selectedColor.name;
         itemInfo.querySelector(".descr p:nth-child(1)").textContent = "Price:";
         itemInfo.querySelector(".descr ul").innerHTML = `
-            <li>Excellent Quality - ${selectedColor.prices.excellent}</li>
-            <li>Good Quality - ${selectedColor.prices.good}</li>
-            <li>Middle Quality - ${selectedColor.prices.middle}</li>
+            <li>Excellent Quality - <span class="total-price">${selectedColor.prices.excellent}</span></li>
+            <li>Good Quality - <span class="total-price">${selectedColor.prices.good}</span></li>
+            <li>Middle Quality - <span class="total-price">${selectedColor.prices.middle}</span></li>
         `;
         itemInfo.querySelector(".descr p:nth-child(3)").textContent = `Sizes: ${commonInfo.sizes}`;
     }
