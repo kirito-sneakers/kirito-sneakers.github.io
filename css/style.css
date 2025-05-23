@@ -1392,8 +1392,8 @@ footer {
     line-height: 30px;
     h1 {
         text-transform: uppercase;
-        margin-bottom: 50px;
-        font-size: 40px;
+        margin-bottom: 70px;
+        font-size: 45px;
     }
     ol {
         max-width: 700px;
@@ -1471,10 +1471,11 @@ footer {
         }
         div {
             display: flex;
-            justify-content: space-evenly;
-            gap: 10px;
+            justify-content: center;
+            gap: 20px;
             flex-wrap: wrap;
             a {
+                flex: 0 1 150px;
                 display: flex;
                 align-items: center;   /* вертикальное выравнивание */
                 justify-content: center;
@@ -1491,6 +1492,7 @@ footer {
                 aspect-ratio: 1 / 1;
                 position: relative;
                 a {
+                    flex: initial;
                     height: auto;
                 }
                 img {
@@ -1498,7 +1500,7 @@ footer {
                     height: 100%;
                     max-width: none;
                     max-height: none;
-                    object-fit: cover;
+                    min-height: 500px;
                     display: block;
                 }
             }
@@ -1521,6 +1523,7 @@ footer {
             max-width: 400px;
             text-align: center;
             transition: all 0.4s ease;
+            height: 90px;
         }
         .colors {
             max-width: 300px;
@@ -1652,13 +1655,14 @@ footer {
                 div {
                     a {
                         height: 80px;
+                        flex: 0 1 120px;
                     }
                     img {
                         max-height: 80px;
                         max-width: 120px;
                     }
                     &:nth-child(2) {
-                        min-height: 170px;
+                        min-height: 180px;
                     }
                 }
             }
@@ -1794,6 +1798,7 @@ footer {
         .item-info {
             h2 {
                 font-size: 25px;
+                height: 60px;
             }
         }
         .galary {
@@ -1801,13 +1806,14 @@ footer {
             div {
                 a {
                     height: 70px;
+                    flex: 0 1 100px;
                 }
                 img {
                     max-height: 70px;
                     max-width: 100px;
                 }
                 &:nth-child(2) {
-                    min-height: 150px;
+                    min-height: 160px;
                     max-width: 400px;
                     margin: 0 auto;
                 }
@@ -1830,12 +1836,14 @@ footer {
     .about-us {
         h1 {
             font-size: 30px;
+            margin-bottom: 70px;
         }
         ol {
             gap: 40px;
             li {
                 h2 {
-                    font-size: 25px; 
+                    font-size: 22px; 
+                    margin-bottom: 10px;
                 }
                 p {
                     font-size: 15px;
@@ -1948,10 +1956,12 @@ footer {
         align-items: center;
         gap: 0px;
         .galary {
-            max-width: 300px;
+            width: 350px;
             div {
+                gap: 10px;
                 a {
                     height: 60px;
+                    flex: 0 1 90px;
                 }
                 img {
                     max-height: 60px;
@@ -1959,8 +1969,13 @@ footer {
                 }
                 &:nth-child(2) {
                     min-height: 130px;
-                    max-width: 250px;
+                    max-width: 300px;
                     margin: 0 auto;
+                }
+                &:first-child {
+                    img {
+                        min-height: 350px;
+                    }
                 }
             }
         }
@@ -1969,6 +1984,7 @@ footer {
             padding-top: 50px;
             h2 {
                 font-size: 20px;
+                height: 50px;
             }
             .descr {
                 font-size: 17px;
@@ -1989,12 +2005,12 @@ footer {
 
     .about-us {
         h1 {
-            margin-bottom: 40px;
+            margin-bottom: 70px;
         }
         ol {
             li {
                 h2 {
-                    font-size: 25px; 
+                    font-size: 20px; 
                 }
                 p {
                     font-size: 15px;
@@ -2060,5 +2076,9 @@ footer {
                 width: 70%;
             }
         }
+    }
+    .item {
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
