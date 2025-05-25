@@ -177,23 +177,27 @@ burger.addEventListener('click', () => {
 });
 
 function switchLanguage(newLang) {
-  const currentUrl = window.location.href;
+  const host = window.location.origin;
+  let path = window.location.pathname;
 
-  // Заменяем /eng/ или /rus/ на пустую строку, если выбран 'ukr'
-  let newUrl = newLang
-    ? currentUrl.replace(/\/(eng|ukr|rus)\//, `/${newLang}/`)
-    : currentUrl.replace(/\/(eng|ukr|rus)\//, '/');
+  // Удаляем текущий языковой префикс, если он есть
+  path = path.replace(/^\/(eng|rus|ukr)/, '');
 
-    window.location.href = newUrl;
+  // Если выбран язык (не "ukr"), добавляем префикс
+  const newPath = newLang && newLang !== 'ukr' ? `/${newLang}${path}` : path;
+
+  // Перенаправление
+  window.location.href = host + newPath;
 }
 
-  // Навешиваем обработчик на все <a data-lang>
-  document.querySelectorAll('a[data-lang]').forEach(link => {
-    link.addEventListener('click', function (e) {
-      e.preventDefault(); // отменяем переход по href="#"
-      const lang = this.getAttribute('data-lang');
-      switchLanguage(lang);
-    });
+// Навешиваем обработчик на все <a data-lang>
+document.querySelectorAll('a[data-lang]').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const lang = this.getAttribute('data-lang');
+    switchLanguage(lang);
   });
+});
+
 
 });
