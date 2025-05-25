@@ -49,7 +49,7 @@ main {
     background-color: white;
     height: 100%;
     top: 79.61px;
-    transform: translateX(-100%);
+    transform: translateX(-101%);
     width: 50%;
     z-index: 99999;
     transition: 0.3s;
