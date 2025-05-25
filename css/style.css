@@ -20,10 +20,123 @@ main {
     flex-grow: 1; /* Основной контент будет занимать доступное пространство */
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    background-color: #000;
+    z-index: 99;
+    top: 79.61px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden; /* Вместо display: none */
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+}
+
+.overlay.nav-opened {
+    visibility: visible;
+    opacity: 0.4;
+}
+
+#mobile-nav {
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    top: 79.61px;
+    transform: translateX(-100%);
+    width: 50%;
+    z-index: 99999;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;         /* вертикальный скролл */
+    overflow-x: hidden;
+    min-height: 0;
+    padding-bottom: 100px;
+    div {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        height: 74px;
+        background-color: #f5f5f5;
+        text-transform: uppercase;
+        font-size: 22px;
+        letter-spacing: 1px;
+        flex-shrink: 0;
+    }
+    a {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        height: 53px;
+        font-size: 15px;
+        border-bottom: 1px solid #f5f5f5;
+        text-decoration: none;
+        color: black;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+}
+
+#mobile-nav.nav-opened {
+    transform: translateX(0);
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover .arrow-icon {
+    transform: rotate(180deg);
+}
+
+
 .visually-hidden {
     position: absolute;
     left: -9999px;
   }  
+
+  .underline-animated, .underline-animated-black {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.underline-animated-black {
+    color: white;
+}
+
+.underline-animated::after, .underline-animated-black::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 1px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.underline-animated.dd::after {
+    left: 10px;
+    right: 10px;
+    bottom: 6px;
+}
+
+.underline-animated:hover::after, .underline-animated-black:hover::after {
+    transform: scaleX(1);
+}
+
 
 .black {
     background-color: rgb(0, 0, 0);
@@ -1062,24 +1175,174 @@ header {
     align-items: center;
     justify-content: center;
     z-index: 99;
-    transition: transform 0.3s ease;
+    transition: 0.7s;
+    .burger {
+        position: absolute;
+        left: 40px;
+        width: 40px;
+        height: 30px;
+        background: transparent;
+        cursor: pointer;
+        display: none;
+    }
+
+    .burger input {
+        display: none;
+    }
+
+    .burger span {
+        display: none;
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: black;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+
+    .burger span:nth-of-type(1) {
+        top: 0px;
+        transform-origin: left center;
+    }
+
+    .burger span:nth-of-type(2) {
+        top: 50%;
+        transform: translateY(-50%);
+        transform-origin: left center;
+    }
+
+    .burger span:nth-of-type(3) {
+        top: 100%;
+        transform-origin: left center;
+        transform: translateY(-100%);
+    }
+
+    .burger input:checked ~ span:nth-of-type(1) {
+        transform: rotate(45deg);
+        top: 0px;
+        left: 4px;
+    }
+
+    .burger input:checked ~ span:nth-of-type(2) {
+        width: 0%;
+        opacity: 0;
+    }
+
+    .burger input:checked ~ span:nth-of-type(3) {
+        transform: rotate(-45deg);
+        top: 28.2px;
+        left: 4px;
+    }
+    * {
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    svg {
+        vertical-align: middle; /* чуть лучше, чем default baseline */
+    }
     .logo-icon {
         width: 50px;
+
         img {
             width: inherit;
         }
     }
+
     .header-icons {
         position: absolute;
         display: flex;
-        gap: 20px;
+        align-items: center;
+        gap: 15px;
         right: 40px;
         top: 50%;
         transform: translateY(-50%);
-        a {
-            height: 40px;
-            width: 40px;
+        .saved-icon {
+            svg {
+                width: 30px;
+                height: 30px;
+            }
         }
+    }
+
+    .header-info {
+        position: absolute;
+        display: flex;
+        gap: 33px;
+        left: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .dropdown-title {
+        padding: 8px;
+        padding-left: 0;
+    }
+
+    .dropdown-title.lang {
+        font-size: 13px;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 140%;
+        left: -10px;
+        display: none;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 1);
+        min-width: 150px;
+        z-index: 1000;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* ✅ лёгкая тень */
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .dropdown-menu.lang {
+        position: absolute;
+        text-align: center;
+        top: 140%;
+        left: 1px;
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        min-width: 70px;
+        z-index: 1000;
+    }
+
+    .dropdown-menu a {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        transition: color 0.3s ease;
+    }
+
+    /* Показывать меню при наведении */
+    .dropdown:hover .dropdown-menu {
+        display: flex;
     }
 }
 
@@ -1091,7 +1354,7 @@ section {
     overflow-x: hidden;
 }
 main.alternative-header {
-    padding-top: 80px;
+    padding-top: 79.61px;
     position: relative;
 }
 
@@ -1373,9 +1636,6 @@ footer {
             text-decoration: none;
             color: #fff;
             text-transform: uppercase;
-            &:hover {
-                text-decoration: underline;
-            }
         }
         svg path {
         fill: #fff;
@@ -1564,16 +1824,16 @@ footer {
             text-align: center;
             gap: 40px;
             align-items: center;
+            .total-price {
+                font-size: 22px;
+                font-weight: 600;
+            }
             ul {
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
                 list-style-type: none;
                 padding-left: 0;
-                li span {
-                    font-size: 24px;
-                    font-weight: 600;
-                }
                 li::marker {
                     content: '';
                     marker: none;
@@ -1637,9 +1897,40 @@ footer {
             aspect-ratio: 1 / 1.45;
         }
     }
+    header {
+        .header-info {
+            gap: 23px;
+        }
+    }
 }
 
 @media (max-width: 1100px) {
+    header {
+        .header-info {
+            display: none;
+        }
+        .header-icons {
+            .saved-icon {
+                svg {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+        }
+        .burger {
+            display: block;
+            width: 30px;
+            height: 25px;
+        }
+        .burger input:checked ~ span:nth-of-type(3) {
+            transform: rotate(-45deg);
+            top: 21.17px;
+            left: 4px;
+        }
+        .lang {
+            display: none;
+        }
+    }
     .mein-menu {
         .list-item {
             aspect-ratio: 1 / 1.55;
@@ -1871,6 +2162,13 @@ footer {
 }
 
 @media (max-width: 490px) {
+    #mobile-nav {
+        top: 63.19px;
+        width: 70%;
+    }
+    .overlay {
+        top: 63px;
+    }
     .section-header {
         .brand-logo-main {
             p {
@@ -1890,9 +2188,23 @@ footer {
         .header-icons {
             gap: 15px;
             right: 20px;
-            a {
-                height: 30px;
-                width: 30px;
+            .saved-icon {
+                svg {
+                    width: 30px;
+                    height: 30px;
+                }
+        }
+        }
+        .burger {
+            height: 22px;
+            width: 27px;
+            span {
+                height: 3px;
+            }
+            input:checked ~ span:nth-of-type(3) {
+                transform: rotate(-45deg);
+                top: 18.9px;
+                left: 4px;
             }
         }
     }
@@ -1989,12 +2301,8 @@ footer {
             .descr {
                 font-size: 17px;
                 gap: 30px;
-                ul {
-                    li {
-                        span.total-price {
-                            font-size: 20px;
-                        }
-                    }
+                .total-price {
+                    font-size: 20px;
                 }
             }
             .about-qlt {
