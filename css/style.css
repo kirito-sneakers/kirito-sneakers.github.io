@@ -1085,31 +1085,6 @@ main {
     }
 }
 
-.view-more-btn {
-    position: absolute;
-    display: flex;
-    border-radius: 10px;
-    background-color: #111;
-    color: #fff;
-    border: 1px solid #111;
-    text-transform: uppercase;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    transition: 0.5s;
-    width: 100px;
-    height: 30px;
-    font-size: 13px;
-    bottom: 90px;
-    left: 50%;
-    transform: translateX(-50%);
-    transition: 0.5s;
-    &:hover {
-        transform: scale(1) translateX(-50%);
-        background-color: #fff;
-        color: #111;
-    }
-}
 .view-all-btn {
     display: flex;
     border-radius: 10px;
@@ -1121,9 +1096,9 @@ main {
     align-items: center;
     text-decoration: none;
     transition: 0.5s;
-    width: 150px;
+    width: 160px;
     height: 60px;
-    font-size: 15px;
+    font-size: 13px;
     transition: 0.5s;
     &:hover {
         background-color: #fff;
@@ -2258,9 +2233,9 @@ footer {
         }
     }
     .watch-all a {
-        width: 120px;
-        height: 50px;
-        font-size: 12px;
+        width: 130px;
+        height: 45px;
+        font-size: 11px;
     }
     .item {
         display: flex;
