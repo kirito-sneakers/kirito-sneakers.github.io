@@ -437,15 +437,29 @@ class MainMenu {
 
             const brand = getBrandFromTitle(this.title);
 
-            const cardData = {
-                title: this.title,
-                images: this.images.map(img => {
-                    const filename = img.split('/').pop(); // Извлекаем имя файла
+        const cardData = {
+            title: this.title,
+            images: this.images.map(img => {
+                try {
+                    const url = new URL(img, location.origin);
+                    return url.pathname.startsWith('/img/') ? url.pathname : url.href;
+                } catch {
+                    const filename = img.split('/').pop();
                     return `/${brand}/img/${filename}`;
-                }),
-                href: `/${brand}/${this.href.split('/').pop()}`,
-                colors: this.colors
-            };
+                }
+            }),
+            href: (() => {
+                try {
+                    const url = new URL(this.href, location.origin);
+                    return url.pathname;
+                } catch {
+                    const filename = this.href.split('/').pop();
+                    return `/${brand}/${filename}`;
+                }
+            })(),
+            colors: this.colors
+        };
+
 
             let savedCards = JSON.parse(localStorage.getItem('savedCards')) || [];
 
