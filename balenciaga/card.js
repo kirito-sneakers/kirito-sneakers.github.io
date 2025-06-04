@@ -13,10 +13,10 @@ const balenciagaMainMenu = [
             "https://balenciaga.dam.kering.com/m/5b59212c708e8d14/Large-734734W3XL11210_F.jpg?v=2",
             "https://balenciaga.dam.kering.com/m/b24adf190b4b621/Large-734734W3XL49191_F.jpg?v=3",
             "https://balenciaga.dam.kering.com/m/7398af7893f3cacc/Large-734734W3XL52800_F.jpg?v=2",
-            "./img/3xl-red-1.jpg",
-            "./img/3xl-pink-1.jpg",
+            "/balenciaga/img/3xl-red-1.jpg",
+            "/balenciaga/img/3xl-pink-1.jpg",
             "https://balenciaga.dam.kering.com/m/4613c58ee926830b/Medium-734734WTRMH9080_F.jpg?v=2",
-            "./img/3xl-ripped-1.jpg",
+            "/balenciaga/img/3xl-ripped-1.jpg",
         ],
         colors: 9,
         href: "./3xl.html",
@@ -28,10 +28,10 @@ const balenciagaMainMenu = [
             "https://balenciaga.dam.kering.com/m/612ece00eb41d4be/Large-734734W3XL11090_F.jpg?v=2",
             "https://balenciaga.dam.kering.com/m/6f889dcc9cc9b0af/Large-734734W3XL49710_F.jpg?v=7",
             "https://balenciaga.dam.kering.com/m/8e8063f68be15dd/Large-734734W3XL51219_F.jpg?v=2",
-            "./img/3xl-white_red-1.jpg",
+            "/balenciaga/img/3xl-white_red-1.jpg",
             "https://balenciaga.dam.kering.com/m/2ad73ac34add0ce2/Large-734731W3XL51259_F.jpg?v=1",
-            "./img/3xl-black_orange-1.jpg",
-            "./img/3xl-yellow_black-1.jpg",
+            "/balenciaga/img/3xl-black_orange-1.jpg",
+            "/balenciaga/img/3xl-yellow_black-1.jpg",
             "https://balenciaga.dam.kering.com/m/10e6ed040d681a1d/Large-734731W2RG39010_F.jpg?v=2",
         ],
         colors: 8,
@@ -42,10 +42,10 @@ const balenciagaMainMenu = [
         title: '3xl extreme laces',
         images: [
             "https://balenciaga.dam.kering.com/m/17883204e082f5a8/Large-778697W3XLL9191_F.jpg?v=1",
-            "./img/3xl-extreme-lace-black-1.jpg ",
-            "./img/3xl-extreme-lace-black_white-1.jpg",
+            "/balenciaga/img/3xl-extreme-lace-black-1.jpg ",
+            "/balenciaga/img/3xl-extreme-lace-black_white-1.jpg",
             "https://balenciaga.dam.kering.com/m/3bb75c154f5bbfd8/Large-778698W3XLL2097_F.jpg?v=2",
-            "./img/3xl-extreme-lace-red-1.jpg",
+            "/balenciaga/img/3xl-extreme-lace-red-1.jpg",
         ],
         colors: 5,
         href: "./3xl-extreme-laces.html",
@@ -78,9 +78,9 @@ const balenciagaMainMenu = [
             "https://balenciaga.dam.kering.com/m/614246a71e653806/Large-542436W1GB11000_F.jpg?v=5",
             "https://balenciaga.dam.kering.com/m/2aa3a0a429e745c3/Large-542023W1GB19000_F.jpg?v=7",
             "https://balenciaga.dam.kering.com/m/1f84b1ae31bdcdff/Large-542023W2LA29110_F.jpg?v=3",
-            "./img/track-pink-1.jpg",
-            "./img/track-adidas-white-1.jpg",
-            "./img/track-black_white-1.jpg",
+            "/balenciaga/img/track-pink-1.jpg",
+            "/balenciaga/img/track-adidas-white-1.jpg",
+            "/balenciaga/img/track-black_white-1.jpg",
             "https://balenciaga.dam.kering.com/m/7b7c9495c7df7055/Large-542436W3AC48071_F.jpg?v=3",
             "https://balenciaga.dam.kering.com/m/5d0d7977338156dc/Large-542436W1GB19059_F.jpg?v=5",
         ],
@@ -93,8 +93,8 @@ const balenciagaMainMenu = [
         images: [
             "https://balenciaga.dam.kering.com/m/4b9e3467ee30cdb0/Large-542023WTRHW1090_F.jpg?v=2",
             "https://balenciaga.dam.kering.com/m/6e1055a4e22cfd55/Large-542436WTRHW9010_F.jpg?v=1",
-            "./img/track-graffiti-black_white-1.jpg",
-            "./img/track-grafifiti-whtie_blue-1.jpg",
+            "/balenciaga/img/track-graffiti-black_white-1.jpg",
+            "/balenciaga/img/track-grafifiti-whtie_blue-1.jpg",
         ],
         colors: 4,
         href: "./track-graffiti.html",
@@ -103,8 +103,8 @@ const balenciagaMainMenu = [
     {
         title: 'track led',
         images: [
-            "./img/track-led-black-1.jpg",
-            "./img/track-led-white-1.jpg",
+            "/balenciaga/img/track-led-black-1.jpg",
+            "/balenciaga/img/track-led-white-1.jpg",
         ],
         colors: 2,
         href: "./track-led.html",
@@ -114,12 +114,12 @@ const balenciagaMainMenu = [
         title: 'track 2.0',
         images: [
             "https://balenciaga.dam.kering.com/m/61e97b5971411bf7/Large-690494W3GN11000_F.jpg?v=3",
-            "./img/track2-white-1.jpg",
-            "./img/track2-beige-1.jpg",
-            "./img/track2-grey-1.jpg",
-            "./img/track2-orange-1.jpg",
-            "./img/track2-lime-1.jpg",
-            "./img/track2-pink-1.jpg",
+            "/balenciaga/img/track2-white-1.jpg",
+            "/balenciaga/img/track2-beige-1.jpg",
+            "/balenciaga/img/track2-grey-1.jpg",
+            "/balenciaga/img/track2-orange-1.jpg",
+            "/balenciaga/img/track2-lime-1.jpg",
+            "/balenciaga/img/track2-pink-1.jpg",
         ],
         colors: 7,
         href: "./track2.html",
@@ -128,13 +128,13 @@ const balenciagaMainMenu = [
     {
         title: 'track 2.0 multicolor',
         images: [
-            "./img/track2-black_white-1.jpg",
-            "./img/track2-beige_black-1.jpg",
-            "./img/track2-white_orange-1.jpg",
-            "./img/track2-white_red-1.jpg",
-            "./img/track2-blue_red-1.jpg",
-            "./img/track2-grey_red-1.jpg",
-            "./img/track2-black_orange-1.jpg",
+            "/balenciaga/img/track2-black_white-1.jpg",
+            "/balenciaga/img/track2-beige_black-1.jpg",
+            "/balenciaga/img/track2-white_orange-1.jpg",
+            "/balenciaga/img/track2-white_red-1.jpg",
+            "/balenciaga/img/track2-blue_red-1.jpg",
+            "/balenciaga/img/track2-grey_red-1.jpg",
+            "/balenciaga/img/track2-black_orange-1.jpg",
         ],
         colors: 7,
         href: "./track2-multicolor.html",
@@ -143,9 +143,9 @@ const balenciagaMainMenu = [
     {
         title: 'runner',
         images: [
-            "./img/runner-black-1.jpg",
-            "./img/runner-white-1.jpg",
-            "./img/runner-grey-1.jpg",
+            "/balenciaga/img/runner-black-1.jpg",
+            "/balenciaga/img/runner-white-1.jpg",
+            "/balenciaga/img/runner-grey-1.jpg",
         ],
         colors: 3,
         href: "./runner.html",
@@ -154,13 +154,13 @@ const balenciagaMainMenu = [
     {
         title: 'runner multicolor',
         images: [
-            "./img/runner-multicolor-white_black-1.jpg",
-            "./img/runner-multicolor-white_beige-1.jpg",
-            "./img/runner-multicolor-white_blue-1.jpg",
-            "./img/runner-multicolor-white_orange-1.jpg",
-            "./img/runner-multicolor-white_pink-1.jpg",
-            "./img/runner-multicolor-white_red-1.jpg",
-            "./img/runner-multicolor-white-1.jpg",
+            "/balenciaga/img/runner-multicolor-white_black-1.jpg",
+            "/balenciaga/img/runner-multicolor-white_beige-1.jpg",
+            "/balenciaga/img/runner-multicolor-white_blue-1.jpg",
+            "/balenciaga/img/runner-multicolor-white_orange-1.jpg",
+            "/balenciaga/img/runner-multicolor-white_pink-1.jpg",
+            "/balenciaga/img/runner-multicolor-white_red-1.jpg",
+            "/balenciaga/img/runner-multicolor-white-1.jpg",
         ],
         colors: 7,
         href: "./runner-multicolor.html",
@@ -169,8 +169,8 @@ const balenciagaMainMenu = [
     {
         title: 'runner graffiti',
         images: [
-            "./img/runner-graffiti-black-1.jpg",
-            "./img/runner-graffiti-white-1.jpg",
+            "/balenciaga/img/runner-graffiti-black-1.jpg",
+            "/balenciaga/img/runner-graffiti-white-1.jpg",
         ],
         colors: 2,
         href: "./runner-graffiti.html",
@@ -180,7 +180,7 @@ const balenciagaMainMenu = [
         title: 'runner new',
         images: [
             "https://balenciaga.dam.kering.com/m/584174b2c523b16a/Large-772774W3RBT1000_F.jpg?v=6",
-            "./img/runner-new-beige-1.jpg",
+            "/balenciaga/img/runner-new-beige-1.jpg",
             "https://balenciaga.dam.kering.com/m/379f355b761781fb/Large-813793WRUCU1000_F.jpg?v=1",
         ],
         colors: 3,
@@ -194,7 +194,7 @@ const balenciagaMainMenu = [
             "https://balenciaga.dam.kering.com/m/ab2a5f001bcf853/eCom-772774W3RMU9010_F.jpg?v=6",
             "https://balenciaga.dam.kering.com/m/5d5a8f379ea7be2c/Large-772774WRUNG2410_F.jpg?v=2",
             "https://balenciaga.dam.kering.com/m/16aa470bc3ef5695/Large-772767W3RMU9034_F.jpg?v=2",
-            "./img/runner-new-beige_yellow-1.jpg",
+            "/balenciaga/img/runner-new-beige_yellow-1.jpg",
             "https://balenciaga.dam.kering.com/m/6f694142d11e732a/Large-772774W3RNY9012_F.jpg?v=4",
             "https://balenciaga.dam.kering.com/m/39772bfec61de839/Large-772774W3RNY4912_F.jpg?v=7",
             "https://balenciaga.dam.kering.com/m/1e4455c8dbbc0b5a/Large-772767W3RBW9645_F.jpg?v=5",
@@ -222,11 +222,11 @@ const balenciagaMainMenu = [
         images: [
             "https://balenciaga.dam.kering.com/m/3854d991a1d9606c/Large-524039W2FW19700_F.jpg?v=4",
             "https://balenciaga.dam.kering.com/m/3af9cb97f6786d10/Large-533882W09OM1000_F.jpg?v=5",
-            "./img/triple-s-white_red-1.jpg",
-            "./img/triple-s-beige_red-1.jpg",
-            "./img/triple-s-white_green-1.jpg",
-            "./img/triple-s-black-1.jpg",
-            "./img/triple-s-white-1.jpg",
+            "/balenciaga/img/triple-s-white_red-1.jpg",
+            "/balenciaga/img/triple-s-beige_red-1.jpg",
+            "/balenciaga/img/triple-s-white_green-1.jpg",
+            "/balenciaga/img/triple-s-black-1.jpg",
+            "/balenciaga/img/triple-s-white-1.jpg",
         ],
         colors: 7,
         href: "./triple-s.html",
@@ -235,10 +235,10 @@ const balenciagaMainMenu = [
     {
         title: 'triple s logotypes',
         images: [
-            "./img/triple-s-logotype-white-1.jpg",
-            "./img/triple-s-allover-black-1.jpg",
-            "./img/triple-s-allover-white-1.jpg",
-            "./img/triple-s-allover-pink-1.jpg",
+            "/balenciaga/img/triple-s-logotype-white-1.jpg",
+            "/balenciaga/img/triple-s-allover-black-1.jpg",
+            "/balenciaga/img/triple-s-allover-white-1.jpg",
+            "/balenciaga/img/triple-s-allover-pink-1.jpg",
         ],
         colors: 4,
         href: "./triple-s-logotypes.html",
@@ -247,9 +247,9 @@ const balenciagaMainMenu = [
     {
         title: 'balenciaga & adidas triple s',
         images: [
-            "./img/triple-s-adidas-black-1.jpg",
-            "./img/triple-s-adidas-white-1.jpg",
-            "./img/triple-s-adidas-blue-1.jpg",
+            "/balenciaga/img/triple-s-adidas-black-1.jpg",
+            "/balenciaga/img/triple-s-adidas-white-1.jpg",
+            "/balenciaga/img/triple-s-adidas-blue-1.jpg",
         ],
         colors: 3,
         href: "./triple-s-adidas.html",
@@ -258,10 +258,10 @@ const balenciagaMainMenu = [
     {
         title: 'triple s faded',
         images: [
-            "./img/triple-s-faded-black-1.jpg",
-            "./img/triple-s-faded-beige-1.jpg",
-            "./img/triple-s-faded-blue-1.jpg",
-            "./img/triple-s-faded-red-1.jpg",
+            "/balenciaga/img/triple-s-faded-black-1.jpg",
+            "/balenciaga/img/triple-s-faded-beige-1.jpg",
+            "/balenciaga/img/triple-s-faded-blue-1.jpg",
+            "/balenciaga/img/triple-s-faded-red-1.jpg",
         ],
         colors: 4,
         href: "./triple-s-faded.html",
@@ -272,9 +272,9 @@ const balenciagaMainMenu = [
         images: [
             "https://balenciaga.dam.kering.com/m/27ee2e98d9a41441/Large-685613W2RA61000_F.jpg?v=4",
             "https://balenciaga.dam.kering.com/m/53dc0467b734d93f/Large-685613W2RA69700_F.jpg?v=6",
-            "./img/defender-grey-1.jpg",
-            "./img/defender-dark-green-1.jpg",
-            "./img/defender-white-1.jpg",
+            "/balenciaga/img/defender-grey-1.jpg",
+            "/balenciaga/img/defender-dark-green-1.jpg",
+            "/balenciaga/img/defender-white-1.jpg",
         ],
         colors: 5,
         href: "./defender.html",
@@ -283,10 +283,10 @@ const balenciagaMainMenu = [
     {
         title: '10xl',
         images: [
-            "./img/10xl-white-1.jpg",
+            "/balenciaga/img/10xl-white-1.jpg",
             "https://balenciaga.dam.kering.com/m/560e23f9969803e4/eCom-792779W2MV21000_F.jpg?v=2",
-            "./img/10xl-white_orange-1.jpg",
-            "./img/10xl-grey_pink-1.jpg"
+            "/balenciaga/img/10xl-white_orange-1.jpg",
+            "/balenciaga/img/10xl-grey_pink-1.jpg"
         ],
         colors: 4,
         href: "./10xl.html",
@@ -298,8 +298,8 @@ const balenciagaMainMenu = [
             "https://balenciaga.dam.kering.com/m/617971650f6142f1/Large-815859W2MV21012_F.jpg?v=1",
             "https://balenciaga.dam.kering.com/m/4f46d9a6f4fa8b25/Large-815859W2MV29000_F.jpg?v=2",
             "https://balenciaga.dam.kering.com/m/7db9fd2107849461/eCom-815853W2MV22211_F.jpg?v=1",
-            "./img/6xl-grey_green-1.jpg",
-            "./img/6xl-white_purple-1.jpg",
+            "/balenciaga/img/6xl-grey_green-1.jpg",
+            "/balenciaga/img/6xl-white_purple-1.jpg",
         ],
         colors: 5,
         href: "./6xl.html",
@@ -308,15 +308,15 @@ const balenciagaMainMenu = [
     {
         title: 'cargo',
         images: [
-            "./img/cargo-white-1.jpg",
-            "./img/cargo-black-1.jpg",
-            "./img/cargo-white_grey-1.jpg",
-            "./img/cargo-grey_white-1.jpg",
-            "./img/cargo-white_yellow-1.jpg",
-            "./img/cargo-white_blue-1.jpg",
-            "./img/cargo-white_pink-1.jpg",
-            "./img/cargo-beige_red-1.jpg",
-            "./img/cargo-yellow_blue-1.jpg",
+            "/balenciaga/img/cargo-white-1.jpg",
+            "/balenciaga/img/cargo-black-1.jpg",
+            "/balenciaga/img/cargo-white_grey-1.jpg",
+            "/balenciaga/img/cargo-grey_white-1.jpg",
+            "/balenciaga/img/cargo-white_yellow-1.jpg",
+            "/balenciaga/img/cargo-white_blue-1.jpg",
+            "/balenciaga/img/cargo-white_pink-1.jpg",
+            "/balenciaga/img/cargo-beige_red-1.jpg",
+            "/balenciaga/img/cargo-yellow_blue-1.jpg",
         ],
         colors: 9,
         href: "./cargo.html",
@@ -339,7 +339,7 @@ const balenciagaMainMenu = [
         images: [
             "https://balenciaga.dam.kering.com/m/2e0ee84686216d11/Large-803681W3ST41000_F.jpg?v=6",
             "https://balenciaga.dam.kering.com/m/7ee51a00d6097a7b/Large-803681W3ST49191_F.jpg?v=5",
-            "./img/stapler-grey-1.jpg",
+            "/balenciaga/img/stapler-grey-1.jpg",
             "https://balenciaga.dam.kering.com/m/1aad72d936194d08/eCom-803681W3ST49571_F.jpg?v=6",
             "https://balenciaga.dam.kering.com/m/5d4848a5f455347f/Large-803682W3ST41457_F.jpg?v=6",
         ],
@@ -350,14 +350,14 @@ const balenciagaMainMenu = [
     {
         title: 'x-pander',
         images: [
-            "./img/x-pander-black-1.jpg",
-            "./img/x-pander-white-1.jpg",
-            "./img/x-pander-grey-1.jpg",
-            "./img/x-pander-white_black-1.jpg",
-            "./img/x-pander-yellow_black-1.jpg",
-            "./img/x-pander-white_orange-1.jpg",
-            "./img/x-pander-white_pink-1.jpg",
-            "./img/x-pander-grey_blue-1.jpg",
+            "/balenciaga/img/x-pander-black-1.jpg",
+            "/balenciaga/img/x-pander-white-1.jpg",
+            "/balenciaga/img/x-pander-grey-1.jpg",
+            "/balenciaga/img/x-pander-white_black-1.jpg",
+            "/balenciaga/img/x-pander-yellow_black-1.jpg",
+            "/balenciaga/img/x-pander-white_orange-1.jpg",
+            "/balenciaga/img/x-pander-white_pink-1.jpg",
+            "/balenciaga/img/x-pander-grey_blue-1.jpg",
         ],
         colors: 8,
         href: "./x-pander.html",
@@ -426,12 +426,24 @@ class MainMenu {
         checkbox.checked = isCardSaved;
 
         checkbox.addEventListener('change', (event) => {
+            function getBrandFromTitle(title) {
+                const lower = title.toLowerCase();
+                if (lower.includes('ramones') || lower.includes('rick') || lower.includes('owens')) {
+                    return 'rick-owens';
+                } else {
+                    return 'balenciaga';
+                }
+            }
+
+            const brand = getBrandFromTitle(this.title);
+
             const cardData = {
                 title: this.title,
                 images: this.images.map(img => {
-                    return img.startsWith('./') || img.startsWith('http') ? img : `./balenciaga/img/${img}`;
+                    const filename = img.split('/').pop(); // Извлекаем имя файла
+                    return `/${brand}/img/${filename}`;
                 }),
-                href: this.href.replace('./', './balenciaga/'),
+                href: `/${brand}/${this.href.split('/').pop()}`,
                 colors: this.colors
             };
 
@@ -445,6 +457,7 @@ class MainMenu {
 
             localStorage.setItem('savedCards', JSON.stringify(savedCards));
         });
+
 
         // Swiper
         new Swiper(element.querySelector('.swiper'), {

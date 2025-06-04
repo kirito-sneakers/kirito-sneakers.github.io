@@ -8,13 +8,13 @@ const rickMainMenu = [
     {
         title: 'Geobasket',
         images: [
-            "./img/geobasket-black-milk-1.jpg",
-            "./img/geobasket-milk-black-1.jpg",
-            "./img/geobasket-olive-green-white-1.jpg",
-            "./img/geobasket-red-milk-1.jpg",
-            "./img/geobasket-pink-milk-1.jpg",
-            "./img/geobasket-black-white-1.jpg",
-            "./img/geobasket-milk-1.jpg",
+            "/rick-owens/img/geobasket-black-milk-1.jpg",
+            "/rick-owens/img/geobasket-milk-black-1.jpg",
+            "/rick-owens/img/geobasket-olive-green-white-1.jpg",
+            "/rick-owens/img/geobasket-red-milk-1.jpg",
+            "/rick-owens/img/geobasket-pink-milk-1.jpg",
+            "/rick-owens/img/geobasket-black-white-1.jpg",
+            "/rick-owens/img/geobasket-milk-1.jpg",
         ],
         colors: 7,
         href: "./geobasket.html",
@@ -23,9 +23,9 @@ const rickMainMenu = [
     {
         title: 'Geobasket Suede',
         images: [
-            "./img/geobasket-suede-black-milk-1.jpg",
-            "./img/geobasket-suede-brown-milk-1.jpg",
-            "./img/geobasket-suede-pink-milk-1.jpg",
+            "/rick-owens/img/geobasket-suede-black-milk-1.jpg",
+            "/rick-owens/img/geobasket-suede-brown-milk-1.jpg",
+            "/rick-owens/img/geobasket-suede-pink-milk-1.jpg",
         ],
         colors: 3,
         href: "./geobasket-suede.html",
@@ -34,13 +34,13 @@ const rickMainMenu = [
     {
         title: 'Geobasket Fur',
         images: [
-            "./img/geobasket-fur-green-milk-1.jpg",
-            "./img/geobasket-fur-black-milk-1.jpg",
-            "./img/geobasket-fur-grey-milk-1.jpg",
-            "./img/geobasket-fur-dark-green-milk-1.jpg",
-            "./img/geobasket-fur-pink-milk-1.jpg",
-            "./img/geobasket-fur-green-white-1.jpg",
-            "./img/geobasket-fur-pink-white-1.jpg",
+            "/rick-owens/img/geobasket-fur-green-milk-1.jpg",
+            "/rick-owens/img/geobasket-fur-black-milk-1.jpg",
+            "/rick-owens/img/geobasket-fur-grey-milk-1.jpg",
+            "/rick-owens/img/geobasket-fur-dark-green-milk-1.jpg",
+            "/rick-owens/img/geobasket-fur-pink-milk-1.jpg",
+            "/rick-owens/img/geobasket-fur-green-white-1.jpg",
+            "/rick-owens/img/geobasket-fur-pink-white-1.jpg",
         ],
         colors: 7,
         href: "./geobasket-fur.html",
@@ -49,8 +49,8 @@ const rickMainMenu = [
     {
         title: 'Geobasket Megalace',
         images: [
-            "./img/geobasket-pentagram-black-white-1.jpg",
-            "./img/geobasket-pentagram-white-black-1.jpg",
+            "/rick-owens/img/geobasket-pentagram-black-white-1.jpg",
+            "/rick-owens/img/geobasket-pentagram-white-black-1.jpg",
         ],
         colors: 2,
         href: "./geobasket-megalace.html",
@@ -59,12 +59,12 @@ const rickMainMenu = [
     {
         title: 'Geobasket Jumbolace',
         images: [
-            "./img/geobasket-jumbolace-black-milk-1.jpg",
-            "./img/geobasket-jumbolace-grey-1.jpg",
-            "./img/geobasket-jumbolace-light-grey-1.jpg",
-            "./img/geobasket-jumbolace-pink-milk-1.jpg",
-            "./img/geobasket-jumbolace-black-1.jpg",
-            "./img/geobasket-jumbolace-milk-1.jpg",
+            "/rick-owens/img/geobasket-jumbolace-black-milk-1.jpg",
+            "/rick-owens/img/geobasket-jumbolace-grey-1.jpg",
+            "/rick-owens/img/geobasket-jumbolace-light-grey-1.jpg",
+            "/rick-owens/img/geobasket-jumbolace-pink-milk-1.jpg",
+            "/rick-owens/img/geobasket-jumbolace-black-1.jpg",
+            "/rick-owens/img/geobasket-jumbolace-milk-1.jpg",
         ],
         colors: 6,
         href: "./geobasket-jumbolace.html",
@@ -73,8 +73,8 @@ const rickMainMenu = [
     {
         title: 'Geobasket Megabumper',
         images: [
-            "./img/geobasket-megabumper-black-milk-1.jpg",
-            "./img/geobasket-megabumper-black-1.jpg",
+            "/rick-owens/img/geobasket-megabumper-black-milk-1.jpg",
+            "/rick-owens/img/geobasket-megabumper-black-1.jpg",
         ],
         colors: 2,
         href: "./geobasket-megabumper.html",
@@ -83,7 +83,7 @@ const rickMainMenu = [
     {
         title: 'Rick Owens & Chrome Hearts Geobasket',
         images: [
-            "./img/geobasket-chrome-hearts-geobasketblack-milk-1.jpg",
+            "/rick-owens/img/geobasket-chrome-hearts-geobasketblack-milk-1.jpg",
         ],
         colors: 1,
         href: "./geobasket-chrome-hearts.html",
@@ -92,10 +92,10 @@ const rickMainMenu = [
     {
         title: 'Dunk',
         images: [
-            "./img/dunk-black-milk-1.jpg",
-            "./img/dunk-milk-black-1.jpg",
-            "./img/dunk-black-1.jpg",
-            "./img/dunk-milk-1.jpg",
+            "/rick-owens/img/dunk-black-milk-1.jpg",
+            "/rick-owens/img/dunk-milk-black-1.jpg",
+            "/rick-owens/img/dunk-black-1.jpg",
+            "/rick-owens/img/dunk-milk-1.jpg",
         ],
         colors: 4,
         href: "./dunks.html",
@@ -104,7 +104,7 @@ const rickMainMenu = [
     {
         title: 'Rick Owens & Chrome Hearts Dunk',
         images: [
-            "./img/dunk-chrome-hearts-milk-black-1.jpg",
+            "/rick-owens/img/dunk-chrome-hearts-milk-black-1.jpg",
         ],
         colors: 1,
         href: "./dunks-chrome-hearts.html",
@@ -113,12 +113,12 @@ const rickMainMenu = [
     {
         title: 'Ramones',
         images: [
-            "./img/ramones-black-milk-1.jpg",
-            "./img/ramones-olive-denim-milk-1.jpg",
-            "./img/ramones-olive-milk-1.jpg",
-            "./img/ramones-milk-1.jpg",
-            "./img/ramones-black-1.jpg",
-            "./img/ramones-taped-milk-1.jpg",
+            "/rick-owens/img/ramones-black-milk-1.jpg",
+            "/rick-owens/img/ramones-olive-denim-milk-1.jpg",
+            "/rick-owens/img/ramones-olive-milk-1.jpg",
+            "/rick-owens/img/ramones-milk-1.jpg",
+            "/rick-owens/img/ramones-black-1.jpg",
+            "/rick-owens/img/ramones-taped-milk-1.jpg",
         ],
         colors: 6,
         href: "./ramones.html",
@@ -127,11 +127,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Leather',
         images: [
-            "./img/ramones-leather-black-white-1.jpg",
-            "./img/ramones-leather-black-light-gum-1.jpg",
-            "./img/ramones-leather-olive-milk-1.jpg",
-            "./img/ramones-leather-black-1.jpg",
-            "./img/ramones-leather-milk-1.jpg",
+            "/rick-owens/img/ramones-leather-black-white-1.jpg",
+            "/rick-owens/img/ramones-leather-black-light-gum-1.jpg",
+            "/rick-owens/img/ramones-leather-olive-milk-1.jpg",
+            "/rick-owens/img/ramones-leather-black-1.jpg",
+            "/rick-owens/img/ramones-leather-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-leather.html",
@@ -140,8 +140,8 @@ const rickMainMenu = [
     {
         title: 'Ramones Suede',
         images: [
-            "./img/ramones-suede-black-white-1.jpg",
-            "./img/ramones-suede-brown-milk-1.jpg",
+            "/rick-owens/img/ramones-suede-black-white-1.jpg",
+            "/rick-owens/img/ramones-suede-brown-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-suede.html",
@@ -150,9 +150,9 @@ const rickMainMenu = [
     {
         title: 'Ramones Wax and Satin',
         images: [
-            "./img/ramones-wax-black-milk-1.jpg",
-            "./img/ramones-wax-black-1.jpg",
-            "./img/ramones-satin-black-milk-1.jpg",
+            "/rick-owens/img/ramones-wax-black-milk-1.jpg",
+            "/rick-owens/img/ramones-wax-black-1.jpg",
+            "/rick-owens/img/ramones-satin-black-milk-1.jpg",
         ],
         colors: 3,
         href: "./ramones-wax-satin.html",
@@ -161,8 +161,8 @@ const rickMainMenu = [
     {
         title: 'Ramones Pentagram',
         images: [
-            "./img/ramones-pentagram-black-milk-1.jpg",
-            "./img/ramones-pentagram-white-milk-1.jpg",
+            "/rick-owens/img/ramones-pentagram-black-milk-1.jpg",
+            "/rick-owens/img/ramones-pentagram-white-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-pentagram.html",
@@ -171,12 +171,12 @@ const rickMainMenu = [
     {
         title: 'Ramones DRKSHDW',
         images: [
-            "./img/ramones-drkshdw-black-milk-1.jpg",
-            "./img/ramones-drkshdw-olive-denim-milk-1.jpg",
-            "./img/ramones-drkshdw-orange-milk-1.jpg",
-            "./img/ramones-drkshdw-blue-milk-1.jpg",
-            "./img/ramones-drkshdw-white-milk-1.jpg",
-            "./img/ramones-drkshdw-logo-black-milk-1.jpg",
+            "/rick-owens/img/ramones-drkshdw-black-milk-1.jpg",
+            "/rick-owens/img/ramones-drkshdw-olive-denim-milk-1.jpg",
+            "/rick-owens/img/ramones-drkshdw-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-drkshdw-blue-milk-1.jpg",
+            "/rick-owens/img/ramones-drkshdw-white-milk-1.jpg",
+            "/rick-owens/img/ramones-drkshdw-logo-black-milk-1.jpg",
         ],
         colors: 6,
         href: "./ramones-drkshdw.html",
@@ -185,9 +185,9 @@ const rickMainMenu = [
     {
         title: 'Ramones 4 Holes and Eyelets',
         images: [
-            "./img/ramones-4holes-black-milk-1.jpg",
-            "./img/ramones-4holes-olive-milk-1.jpg",
-            "./img/ramones-eyelets-black-milk-1.jpg",
+            "/rick-owens/img/ramones-4holes-black-milk-1.jpg",
+            "/rick-owens/img/ramones-4holes-olive-milk-1.jpg",
+            "/rick-owens/img/ramones-eyelets-black-milk-1.jpg",
         ],
         colors: 3,
         href: "./ramones-4holes-eyelets.html",
@@ -196,10 +196,10 @@ const rickMainMenu = [
     {
         title: 'Ramones Monochrome',
         images: [
-            "./img/ramones-monochrome-black-milk-1.jpg",
-            "./img/ramones-monochrome-olive-denim-milk-1.jpg",
-            "./img/ramones-monochrome-black-1.jpg",
-            "./img/ramones-monochrome-milk-1.jpg",
+            "/rick-owens/img/ramones-monochrome-black-milk-1.jpg",
+            "/rick-owens/img/ramones-monochrome-olive-denim-milk-1.jpg",
+            "/rick-owens/img/ramones-monochrome-black-1.jpg",
+            "/rick-owens/img/ramones-monochrome-milk-1.jpg",
         ],
         colors: 4,
         href: "./ramones-monochrome.html",
@@ -208,12 +208,12 @@ const rickMainMenu = [
     {
         title: 'Ramones Fur',
         images: [
-            "./img/ramones-fur-olive-milk-1.jpg",
-            "./img/ramones-fur-black-milk-1.jpg",
-            "./img/ramones-fur-grey-milk-1.jpg",
-            "./img/ramones-fur-red-milk-1.jpg",
-            "./img/ramones-fur-orange-milk-1.jpg",
-            "./img/ramones-fur-pink-milk-1.jpg",
+            "/rick-owens/img/ramones-fur-olive-milk-1.jpg",
+            "/rick-owens/img/ramones-fur-black-milk-1.jpg",
+            "/rick-owens/img/ramones-fur-grey-milk-1.jpg",
+            "/rick-owens/img/ramones-fur-red-milk-1.jpg",
+            "/rick-owens/img/ramones-fur-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-fur-pink-milk-1.jpg",
         ],
         colors: 6,
         href: "./ramones-fur.html",
@@ -222,10 +222,10 @@ const rickMainMenu = [
     {
         title: 'Ramones Hexagram',
         images: [
-            "./img/ramones-hexagram-black-milk-1.jpg",
-            "./img/ramones-hexagram-blue-milk-1.jpg",
-            "./img/ramones-hexagram-milk-1.jpg",
-            "./img/ramones-hexagram-jumbolace-black-milk-1.jpg",
+            "/rick-owens/img/ramones-hexagram-black-milk-1.jpg",
+            "/rick-owens/img/ramones-hexagram-blue-milk-1.jpg",
+            "/rick-owens/img/ramones-hexagram-milk-1.jpg",
+            "/rick-owens/img/ramones-hexagram-jumbolace-black-milk-1.jpg",
         ],
         colors: 4,
         href: "./ramones-hexagram.html",
@@ -234,11 +234,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Jumbolace',
         images: [
-            "./img/ramones-jumbolace-black-milk-1.jpg",
-            "./img/ramones-jumbolace-olive-denim-milk-1.jpg",
-            "./img/ramones-jumbolace-orange-milk-1.jpg",
-            "./img/ramones-jumbolace-white-milk-1.jpg",
-            "./img/ramones-jumbolace-black-1.jpg",
+            "/rick-owens/img/ramones-jumbolace-black-milk-1.jpg",
+            "/rick-owens/img/ramones-jumbolace-olive-denim-milk-1.jpg",
+            "/rick-owens/img/ramones-jumbolace-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-jumbolace-white-milk-1.jpg",
+            "/rick-owens/img/ramones-jumbolace-black-1.jpg",
         ],
         colors: 5,
         href: "./ramones-jumbolace.html",
@@ -247,11 +247,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Jumbolace Leather',
         images: [
-            "./img/ramones-leather-jumbolace-black-milk-1.jpg",
-            "./img/ramones-leather-jumbolace-grey-milk-1.jpg",
-            "./img/ramones-leather-jumbolace-orange-milk-1.jpg",
-            "./img/ramones-leather-jumbolace-black-1.jpg",
-            "./img/ramones-leather-jumbolace-milk-1.jpg",
+            "/rick-owens/img/ramones-leather-jumbolace-black-milk-1.jpg",
+            "/rick-owens/img/ramones-leather-jumbolace-grey-milk-1.jpg",
+            "/rick-owens/img/ramones-leather-jumbolace-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-leather-jumbolace-black-1.jpg",
+            "/rick-owens/img/ramones-leather-jumbolace-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-leather-jumbolace.html",
@@ -260,8 +260,8 @@ const rickMainMenu = [
     {
         title: 'Ramones Puffer',
         images: [
-            "./img/ramones-puffer-leather-black-milk-1.jpg",
-            "./img/ramones-puffer-black-milk-1.jpg",
+            "/rick-owens/img/ramones-puffer-leather-black-milk-1.jpg",
+            "/rick-owens/img/ramones-puffer-black-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-puffer.html",
@@ -270,12 +270,12 @@ const rickMainMenu = [
     {
         title: 'Ramones Megabumper',
         images: [
-            "./img/ramones-megabumper-black-milk-1.jpg",
-            "./img/ramones-megabumper-black-1.jpg",
-            "./img/ramones-pentagram-megabumper-black-milk-1.jpg",
-            "./img/ramones-pentagram-black-1.jpg",
-            "./img/ramones-leather-megabumper-black-milk-1.jpg",
-            "./img/ramones-leather-megabumper-black-1.jpg",
+            "/rick-owens/img/ramones-megabumper-black-milk-1.jpg",
+            "/rick-owens/img/ramones-megabumper-black-1.jpg",
+            "/rick-owens/img/ramones-pentagram-megabumper-black-milk-1.jpg",
+            "/rick-owens/img/ramones-pentagram-black-1.jpg",
+            "/rick-owens/img/ramones-leather-megabumper-black-milk-1.jpg",
+            "/rick-owens/img/ramones-leather-megabumper-black-1.jpg",
         ],
         colors: 6,
         href: "./ramones-megabumper.html",
@@ -284,11 +284,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Abstract',
         images: [
-            "./img/ramones-abstract-black-milk-1.jpg",
-            "./img/ramones-abstract-black-1.jpg",
-            "./img/ramones-abstract-clear-sole-black-milk-1.jpg",
-            "./img/ramones-abstract-clear-sole-black-1.jpg",
-            "./img/ramones-abstract-jumbolace-black-milk-1.jpg",
+            "/rick-owens/img/ramones-abstract-black-milk-1.jpg",
+            "/rick-owens/img/ramones-abstract-black-1.jpg",
+            "/rick-owens/img/ramones-abstract-clear-sole-black-milk-1.jpg",
+            "/rick-owens/img/ramones-abstract-clear-sole-black-1.jpg",
+            "/rick-owens/img/ramones-abstract-jumbolace-black-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-abstract.html",
@@ -297,13 +297,13 @@ const rickMainMenu = [
     {
         title: 'Ramones Low',
         images: [
-            "./img/ramones-low-black-milk-1.jpg",
-            "./img/ramones-low-olive-denim-milk-1.jpg",
-            "./img/ramones-low-olive-milk-1.jpg",
-            "./img/ramones-low-black-1.jpg",
-            "./img/ramones-low-milk-1.jpg",
-            "./img/ramones-low-eyelets-black-1.jpg",
-            "./img/ramones-low-taped-milk-1.jpg",
+            "/rick-owens/img/ramones-low-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-olive-denim-milk-1.jpg",
+            "/rick-owens/img/ramones-low-olive-milk-1.jpg",
+            "/rick-owens/img/ramones-low-black-1.jpg",
+            "/rick-owens/img/ramones-low-milk-1.jpg",
+            "/rick-owens/img/ramones-low-eyelets-black-1.jpg",
+            "/rick-owens/img/ramones-low-taped-milk-1.jpg",
         ],
         colors: 7,
         href: "./ramones-low.html",
@@ -312,11 +312,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Leather',
         images: [
-            "./img/ramones-low-leather-black-milk-1.jpg",
-            "./img/ramones-low-leather-black-light-gum-1.jpg",
-            "./img/ramones-low-leather-purple-milk-1.jpg",
-            "./img/ramones-low-leather-olive-milk-1.jpg",
-            "./img/ramones-low-leather-milk-1.jpg",
+            "/rick-owens/img/ramones-low-leather-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-leather-black-light-gum-1.jpg",
+            "/rick-owens/img/ramones-low-leather-purple-milk-1.jpg",
+            "/rick-owens/img/ramones-low-leather-olive-milk-1.jpg",
+            "/rick-owens/img/ramones-low-leather-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-low-leather.html",
@@ -325,8 +325,8 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Wax and Satin',
         images: [
-            "./img/ramones-low-wax-black-milk-1.jpg",
-            "./img/ramones-low-satin-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-wax-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-satin-black-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-low-wax-satin.html",
@@ -335,8 +335,8 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Pentagram',
         images: [
-            "./img/ramones-low-pentagram-black-milk-1.jpg",
-            "./img/ramones-low-pentagram-white-milk-1.jpg",
+            "/rick-owens/img/ramones-low-pentagram-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-pentagram-white-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-low-pentagram.html",
@@ -345,11 +345,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Low DRKSHDW',
         images: [
-            "./img/ramones-low-drkshdw-black-milk-1.jpg",
-            "./img/ramones-low-drkshdw-olive-denim-milk-1.jpg",
-            "./img/ramones-low-drkshdw-orange-milk-1.jpg",
-            "./img/ramones-low-drkshdw-blue-milk-1.jpg",
-            "./img/ramones-low-drkshdw-logo-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-drkshdw-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-drkshdw-olive-denim-milk-1.jpg",
+            "/rick-owens/img/ramones-low-drkshdw-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-low-drkshdw-blue-milk-1.jpg",
+            "/rick-owens/img/ramones-low-drkshdw-logo-black-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-low-drkshdw.html",
@@ -358,8 +358,8 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Distressed',
         images: [
-            "./img/ramones-low-distressed-black-milk-1.jpg",
-            "./img/ramones-low-distressed-pink-milk-1.jpg",
+            "/rick-owens/img/ramones-low-distressed-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-distressed-pink-milk-1.jpg",
         ],
         colors: 2,
         href: "./ramones-low-distressed.html",
@@ -368,11 +368,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Fur',
         images: [
-            "./img/ramones-low-fur-olive-milk-1.jpg",
-            "./img/ramones-low-fur-black-milk-1.jpg",
-            "./img/ramones-low-fur-grey-milk-1.jpg",
-            "./img/ramones-low-fur-orange-milk-1.jpg",
-            "./img/ramones-low-fur-pink-milk-1.jpg",
+            "/rick-owens/img/ramones-low-fur-olive-milk-1.jpg",
+            "/rick-owens/img/ramones-low-fur-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-fur-grey-milk-1.jpg",
+            "/rick-owens/img/ramones-low-fur-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-low-fur-pink-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-low-fur.html",
@@ -381,11 +381,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Jumbolace',
         images: [
-            "./img/ramones-low-jumbolace-black-milk-1.jpg",
-            "./img/ramones-low-jumbolace-olive-denim-milk-1.jpg",
-            "./img/ramones-low-jumbolace-orange-milk-1.jpg",
-            "./img/ramones-low-jumbolace-black-1.jpg",
-            "./img/ramones-low-jumbolace-milk-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-olive-denim-milk-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-black-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-low-jumbolace.html",
@@ -394,9 +394,9 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Jumbolace Leather',
         images: [
-            "./img/ramones-low-jumbolace-leather-black-milk-1.jpg",
-            "./img/ramones-low-jumbolace-leather-orange-milk-1.jpg",
-            "./img/ramones-low-jumbolace-leather-black-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-leather-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-leather-orange-milk-1.jpg",
+            "/rick-owens/img/ramones-low-jumbolace-leather-black-1.jpg",
         ],
         colors: 3,
         href: "./ramones-low-jumbolace-leather.html",
@@ -405,10 +405,10 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Puffer',
         images: [
-            "./img/ramones-low-puffer-black-milk-1.jpg",
-            "./img/ramones-low-puffer-leather-black-milk-1.jpg",
-            "./img/ramones-low-puffer-amethyst-milk-1.jpg",
-            "./img/ramones-low-puffer-green-milk-1.jpg",
+            "/rick-owens/img/ramones-low-puffer-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-puffer-leather-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-puffer-amethyst-milk-1.jpg",
+            "/rick-owens/img/ramones-low-puffer-green-milk-1.jpg",
         ],
         colors: 4,
         href: "./ramones-low-puffer.html",
@@ -417,9 +417,9 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Megabumper',
         images: [
-            "./img/ramones-low-megabumper-black-milk-1.jpg",
-            "./img/ramones-low-megabumper-black-1.jpg",
-            "./img/ramones-low-megabumper-leather-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-megabumper-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-megabumper-black-1.jpg",
+            "/rick-owens/img/ramones-low-megabumper-leather-black-milk-1.jpg",
         ],
         colors: 3,
         href: "./ramones-low-megabumper.html",
@@ -428,11 +428,11 @@ const rickMainMenu = [
     {
         title: 'Ramones Low Abstract',
         images: [
-            "./img/ramones-low-abstract-black-milk-1.jpg",
-            "./img/ramones-low-abstract-black-1.jpg",
-            "./img/ramones-low-abstract-clear-sole-black-milk-1.jpg",
-            "./img/ramones-low-abstract-clear-sole-black-1.jpg",
-            "./img/ramones-low-abstract-jumbolace-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-abstract-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-abstract-black-1.jpg",
+            "/rick-owens/img/ramones-low-abstract-clear-sole-black-milk-1.jpg",
+            "/rick-owens/img/ramones-low-abstract-clear-sole-black-1.jpg",
+            "/rick-owens/img/ramones-low-abstract-jumbolace-black-milk-1.jpg",
         ],
         colors: 5,
         href: "./ramones-low-abstract.html",
@@ -441,10 +441,10 @@ const rickMainMenu = [
     {
         title: 'Rick Owens & Vans',
         images: [
-            "./img/vans-black-milk-1.jpg",
-            "./img/vans-pink-milk-1.jpg",
-            "./img/vans-milk-black-1.jpg",
-            "./img/vans-blue-black-1.jpg",
+            "/rick-owens/img/vans-black-milk-1.jpg",
+            "/rick-owens/img/vans-pink-milk-1.jpg",
+            "/rick-owens/img/vans-milk-black-1.jpg",
+            "/rick-owens/img/vans-blue-black-1.jpg",
         ],
         colors: 4,
         href: "./vans.html",
@@ -453,10 +453,10 @@ const rickMainMenu = [
     {
         title: 'Rick Owens & Vans Leather',
         images: [
-            "./img/vans-leather-black-milk-1.jpg",
-            "./img/vans-leather-grey-milk-1.jpg",
-            "./img/vans-leather-orange-milk-1.jpg",
-            "./img/vans-leather-milk-1.jpg",
+            "/rick-owens/img/vans-leather-black-milk-1.jpg",
+            "/rick-owens/img/vans-leather-grey-milk-1.jpg",
+            "/rick-owens/img/vans-leather-orange-milk-1.jpg",
+            "/rick-owens/img/vans-leather-milk-1.jpg",
         ],
         colors: 4,
         href: "./vans-leather.html",
@@ -465,9 +465,9 @@ const rickMainMenu = [
     {
         title: 'Rick Owens & Vans Suede',
         images: [
-            "./img/vans-suede-black-milk-1.jpg",
-            "./img/vans-suede-brown-milk-1.jpg",
-            "./img/vans-suede-pink-milk-1.jpg",
+            "/rick-owens/img/vans-suede-black-milk-1.jpg",
+            "/rick-owens/img/vans-suede-brown-milk-1.jpg",
+            "/rick-owens/img/vans-suede-pink-milk-1.jpg",
         ],
         colors: 3,
         href: "./vans-suede.html",
@@ -476,10 +476,10 @@ const rickMainMenu = [
     {
         title: 'Rick Owens & Vans Fur',
         images: [
-            "./img/vans-fur-black-milk-1.jpg",
-            "./img/vans-fur-red-milk-1.jpg",
-            "./img/vans-fur-pink-milk-1.jpg",
-            "./img/vans-fur-green-milk-1.jpg",
+            "/rick-owens/img/vans-fur-black-milk-1.jpg",
+            "/rick-owens/img/vans-fur-red-milk-1.jpg",
+            "/rick-owens/img/vans-fur-pink-milk-1.jpg",
+            "/rick-owens/img/vans-fur-green-milk-1.jpg",
         ],
         colors: 4,
         href: "./vans-fur.html",
@@ -488,8 +488,8 @@ const rickMainMenu = [
     {
         title: 'Rick Owens & Vans High',
         images: [
-            "./img/vans-high-black-milk-1.jpg",
-            "./img/vans-high-leather-black-milk-1.jpg",
+            "/rick-owens/img/vans-high-black-milk-1.jpg",
+            "/rick-owens/img/vans-high-leather-black-milk-1.jpg",
         ],
         colors: 2,
         href: "./vans-high.html",
@@ -547,12 +547,24 @@ class MainMenu {
         checkbox.checked = isCardSaved;
 
         checkbox.addEventListener('change', (event) => {
+            function getBrandFromTitle(title) {
+                const lower = title.toLowerCase();
+                if (lower.includes('ramones') || lower.includes('rick') || lower.includes('owens')) {
+                    return 'rick-owens';
+                } else {
+                    return 'balenciaga';
+                }
+            }
+
+            const brand = getBrandFromTitle(this.title);
+
             const cardData = {
                 title: this.title,
                 images: this.images.map(img => {
-                    return img.startsWith('./') || img.startsWith('http') ? img : `./balenciaga/img/${img}`;
+                    const filename = img.split('/').pop(); // Извлекаем имя файла
+                    return `/${brand}/img/${filename}`;
                 }),
-                href: this.href.replace('./', './balenciaga/'),
+                href: `/${brand}/${this.href.split('/').pop()}`,
                 colors: this.colors
             };
 
@@ -566,6 +578,7 @@ class MainMenu {
 
             localStorage.setItem('savedCards', JSON.stringify(savedCards));
         });
+
 
         // Swiper
         new Swiper(element.querySelector('.swiper'), {

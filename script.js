@@ -9,8 +9,8 @@ window.addEventListener('DOMContentLoaded', () => {
             <span></span>
         </label>
         <nav class="header-info">
-            <a href="./../" class="montserrat-light underline-animated">Головна</a>
-            <a href="./../info.html" class="montserrat-light underline-animated">Про нас</a>
+            <a href="/" class="montserrat-light underline-animated">Головна</a>
+            <a href="/info.html" class="montserrat-light underline-animated">Про нас</a>
             <a href="https://t.me/kirito_ls" class="montserrat-light underline-animated" target="_blank">Написати нам</a>
             <div class="dropdown">
                 <span class="dropdown-title montserrat-light">
@@ -20,13 +20,13 @@ window.addEventListener('DOMContentLoaded', () => {
                     </svg>
                 </span>
                 <div class="dropdown-menu">
-                    <a href="./../balenciaga" class="montserrat-light underline-animated dd">Balenciaga</a>
-                    <a href="./../rick-owens" class="montserrat-light underline-animated dd">Rick Owens</a>
+                    <a href="/balenciaga" class="montserrat-light underline-animated dd">Balenciaga</a>
+                    <a href="/rick-owens" class="montserrat-light underline-animated dd">Rick Owens</a>
                 </div>
             </div>
         </nav>
-        <a href="./../" class="logo-icon">
-            <img loading="lazy" src="./../img/logotype.png" alt="Logo">
+        <a href="/" class="logo-icon">
+            <img loading="lazy" src="/img/logotype.png" alt="Logo">
         </a>
         <div class="header-icons">
             <div class="dropdown">
@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     <a data-lang='eng' class="montserrat-light underline-animated dd">Eng</a>
                 </div>
             </div>
-            <a href="./../saved.html" class="saved-icon">
+            <a href="/saved.html" class="saved-icon">
                 <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -64,11 +64,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const footer = document.createElement('footer');
     footer.innerHTML = `
-        <div class="footer-logo"><a href="./../"><img loading="lazy"src="./../img/logotype.png" alt=""></a></div>
+        <div class="footer-logo"><a href="/"><img loading="lazy"src="/img/logotype.png" alt=""></a></div>
         <div class="footer-info">
             <a href="https://t.me/kirito_ls" class="oswald-light underline-animated-black" target="_blank">Написати нам</a>
-            <a href="./../info.html" class="oswald-light underline-animated-black">Про нас</a>
-            <a href="./../" class="oswald-light underline-animated-black">Головна</a>
+            <a href="/info.html" class="oswald-light underline-animated-black">Про нас</a>
+            <a href="/" class="oswald-light underline-animated-black">Головна</a>
         </div>
         <div class="footer-contacts">
             <a href="https://www.instagram.com/kirito_sneakers/" target="_blank">
@@ -98,12 +98,12 @@ window.addEventListener('DOMContentLoaded', () => {
     mobileNav.className = '';
     mobileNav.innerHTML = `
         <div class="oswald-medium">Меню</div>
-        <a href="./../" class="montserrat-light">Головна</a>
-        <a href="./../info.html" class="montserrat-light">Про нас</a>
+        <a href="/" class="montserrat-light">Головна</a>
+        <a href="/info.html" class="montserrat-light">Про нас</a>
         <a href="https://t.me/kirito_ls" class="montserrat-light" target="_blank">Написати нам</a>
         <div class="oswald-medium">Бренди</div>
-        <a href="./../balenciaga" class="montserrat-light">Balenciaga</a>
-        <a href="./../rick-owens" class="montserrat-light">Rick Owens</a>
+        <a href="/balenciaga" class="montserrat-light">Balenciaga</a>
+        <a href="/rick-owens" class="montserrat-light">Rick Owens</a>
         <div class="oswald-medium">Мова</div>
         <a data-lang='eng' class="montserrat-light">Eng</a>
         <a data-lang='ukr' class="montserrat-light">Ukr</a>
