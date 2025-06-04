@@ -497,13 +497,31 @@ const rickMainMenu = [
     },
 ];
 
+const BRAND_KEYWORDS = {
+    'rick-owens': ['geobasket', 'ramones', 'dunk', 'vans'],
+    'balenciaga': ['3xl', 'track', 'runner', 'triple s', 'defender', '10xl', '6xl', 'cargo', 'circuit', 'stapler', 'x-pander', 'hike'],
+};
+
 class MainMenu {
     constructor(title, images, href, parent, colors) {
         this.title = title;
         this.images = images;
-        this.href = href;
         this.parent = parent;
         this.colors = colors;
+
+        this.brand = this.getBrandFromTitle(title);
+        const filename = href.split('/').pop().replace(/^\//, '');
+        this.href = `./${this.brand}/${filename}`;
+    }
+
+    getBrandFromTitle(title) {
+        const lower = title.toLowerCase();
+        for (const [brand, keywords] of Object.entries(BRAND_KEYWORDS)) {
+            if (keywords.some(keyword => lower.includes(keyword))) {
+                return brand;
+            }
+        }
+        return 'unknown';
     }
 
     render() {
@@ -540,31 +558,24 @@ class MainMenu {
 
         this.parent.append(element);
 
-        // Чекбокс
         const checkbox = element.querySelector('.save-card-checkbox');
         const savedCards = JSON.parse(localStorage.getItem('savedCards')) || [];
         const isCardSaved = savedCards.some(card => card.title === this.title);
         checkbox.checked = isCardSaved;
 
         checkbox.addEventListener('change', (event) => {
-            function getBrandFromTitle(title) {
-                const lower = title.toLowerCase();
-                if (lower.includes('ramones') || lower.includes('rick') || lower.includes('owens')) {
-                    return 'rick-owens';
-                } else {
-                    return 'balenciaga';
-                }
-            }
-
-            const brand = getBrandFromTitle(this.title);
-
             const cardData = {
                 title: this.title,
                 images: this.images.map(img => {
-                    const filename = img.split('/').pop(); // Извлекаем имя файла
-                    return `/${brand}/img/${filename}`;
+                    try {
+                        const url = new URL(img, location.origin);
+                        return url.pathname.startsWith('/img/') ? url.pathname : url.href;
+                    } catch {
+                        const filename = img.split('/').pop();
+                        return `/${this.brand}/img/${filename}`;
+                    }
                 }),
-                href: `/${brand}/${this.href.split('/').pop()}`,
+                href: this.href,
                 colors: this.colors
             };
 
@@ -579,8 +590,7 @@ class MainMenu {
             localStorage.setItem('savedCards', JSON.stringify(savedCards));
         });
 
-
-        // Swiper
+        // Swiper init
         new Swiper(element.querySelector('.swiper'), {
             direction: 'horizontal',
             loop: true,
