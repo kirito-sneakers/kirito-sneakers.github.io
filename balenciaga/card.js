@@ -390,7 +390,8 @@ class MainMenu {
 
         this.brand = this.getBrandFromTitle(title);
         const filename = href.split('/').pop().replace(/^\//, '');
-        this.href = `./${this.brand}/${filename}`;
+        this.href = `./${filename}`; // без бренда — для UI
+        this.cardHref = `./${this.brand}/${filename}`; // с брендом — для сохранения
     }
 
     getBrandFromTitle(title) {
@@ -410,6 +411,7 @@ class MainMenu {
         const slides = this.images.map(imgSrc =>
             `<a href="${this.href}" class="swiper-slide"><img src="${imgSrc}" alt="${this.title}" /></a>`
         ).join('');
+
 
         element.innerHTML = `
             <div class="swiper">
@@ -454,7 +456,7 @@ class MainMenu {
                         return `/${this.brand}/img/${filename}`;
                     }
                 }),
-                href: this.href,
+                href: this.cardHref, // сохраняем с папкой бренда
                 colors: this.colors
             };
 
