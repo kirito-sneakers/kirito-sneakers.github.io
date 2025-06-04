@@ -435,7 +435,7 @@ class MainMenu {
                 }
             }
 
-            const brand = getBrandFromTitle(this.title);
+        const brand = getBrandFromTitle(this.title);
 
         const cardData = {
             title: this.title,
@@ -449,16 +449,12 @@ class MainMenu {
                 }
             }),
             href: (() => {
-                try {
-                    const url = new URL(this.href, location.origin);
-                    return url.pathname;
-                } catch {
-                    const filename = this.href.split('/').pop();
-                    return `/${brand}/${filename}`;
-                }
+                const filename = this.href.split('/').pop().replace(/^\//, '');
+                return `./${brand}/${filename}`;
             })(),
             colors: this.colors
         };
+
 
 
             let savedCards = JSON.parse(localStorage.getItem('savedCards')) || [];
