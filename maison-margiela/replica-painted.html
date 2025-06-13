@@ -51,6 +51,21 @@
 
         const colorsData = [
             {
+                colorName: "white",
+                images: [
+                    "/maison-margiela/img/replica-painted-white-1.jpg",
+                    "/maison-margiela/img/replica-painted-white-2.jpg",
+                    "/maison-margiela/img/replica-painted-white-3.jpg",
+                    "/maison-margiela/img/replica-painted-white-4.jpg",
+                ],
+                name: "Replica Painted in White",
+                prices: {
+                    excellent: "5600 ₴",
+                    good: "4800 ₴",
+                    middle: ""
+                }
+            },
+            {
                 colorName: "black",
                 images: [
                     "/maison-margiela/img/replica-painted-black-1.jpg",
@@ -79,13 +94,13 @@
                 name: "Replica Painted in Black/White",
                 prices: {
                     excellent: "5600 ₴",
-                    good: "4800 ₴",
+                    good: "",
                     middle: ""
                 }
             },
         ];
 
-        updateContent("black", commonInfo, colorsData);
+        updateContent("white", commonInfo, colorsData);
         setColorButtons(colorsData, commonInfo);
 
     </script>

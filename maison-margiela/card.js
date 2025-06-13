@@ -24,10 +24,11 @@ const maisonMainMenu = [
     {
         title: 'Replica Painted',
         images: [
+            "/maison-margiela/img/replica-painted-white-1.jpg",
             "/maison-margiela/img/replica-painted-black-1.jpg",
             "/maison-margiela/img/replica-painted-black-white-1.jpg",
         ],
-        colors: 2,
+        colors: 3,
         href: "./replica-painted.html",
         parent: replica,
     },
