@@ -116,6 +116,37 @@ const mainMenu = [
         models: 5,
         parentSelector: '.rick-owens-menu',
     },
+    {
+        title: 'Replica',
+        images: [
+            '/maison-margiela/img/replica-white-grey-1.jpg',
+            "/maison-margiela/img/replica-painted-black-1.jpg",
+        ],
+        href: "./maison-margiela/#replica_title",
+        models: 2,
+        parentSelector: '.maison-margiela-menu',
+    },
+    {
+        title: 'Tabi',
+        images: [
+            "/maison-margiela/img/tabi-black-white-1.jpg",
+            "/maison-margiela/img/tabi-white-1.jpg",
+            "/maison-margiela/img/tabi-black-1.jpg",
+        ],
+        href: "./maison-margiela/#tabi_title",
+        models: 1,
+        parentSelector: '.maison-margiela-menu',
+    },
+    {
+        title: 'Future',
+        images: [
+            "/maison-margiela/img/future-black-1.jpg",
+            "/maison-margiela/img/future-low-black-1.jpg",
+        ],
+        href: "./maison-margiela/#future_title",
+        models: 2,
+        parentSelector: '.maison-margiela-menu',
+    },
 ];
 
 class MainMenu {

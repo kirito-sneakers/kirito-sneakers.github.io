@@ -639,6 +639,21 @@ main {
     }
 }
 
+.black-grey {
+    background-color: rgb(144, 144, 144);
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: black;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    }
+}
+
 .grey-white {
     background-color: rgb(255, 255, 255);
     &::before {
@@ -927,6 +942,10 @@ main {
     background-color: rgb(45, 90, 173);
 }
 
+.light-blue {
+    background-color: rgb(183, 200, 232);
+}
+
 .blue-red {
     background-color: red;
     &::before {
@@ -1083,6 +1102,10 @@ main {
         border-top-left-radius: 2px;
         border-bottom-left-radius: 2px;
     }
+}
+
+.purple {
+    background-color: rgb(164, 10, 225);
 }
 
 .view-all-btn {
@@ -1378,6 +1401,10 @@ main.alternative-header {
 
 .section-header#rick-owens-bg {
     background-image: url('/img/rickBg.webp');
+}
+
+.section-header#maison-margiela-bg {
+    background-image: url('/img/maisonBg.webp');
 }
 
 .mein-menu {
