@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Margiela Future</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <ul></ul>
+                    <p class="sizes"></p>
+                    <a href="/info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/gallary.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-46",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black",
+                images: [
+                    "/maison-margiela/img/future-black-1.jpg",
+                    "/maison-margiela/img/future-black-2.jpg",
+                    "/maison-margiela/img/future-black-3.jpg",
+                ],
+                name: "Maison Margiela Future in Black",
+                prices: {
+                    excellent: "4500 ₴",
+                    good: "3700 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "/maison-margiela/img/future-white-1.jpg",
+                    "/maison-margiela/img/future-white-2.jpg",
+                ],
+                name: "Maison Margiela Future in White",
+                prices: {
+                    excellent: "4500 ₴",
+                    good: "3700 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "red",
+                images: [
+                    "/maison-margiela/img/future-red-1.jpg",
+                    "/maison-margiela/img/future-red-2.jpg",
+                ],
+                name: "Maison Margiela Future in Red",
+                prices: {
+                    excellent: "4500 ₴",
+                    good: "3700 ₴",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>
