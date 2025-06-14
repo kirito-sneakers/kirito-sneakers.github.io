@@ -439,7 +439,7 @@ const rickMainMenu = [
         parent: ramonesLow,
     },
     {
-        title: 'Rick Owens & Vans',
+        title: 'Vintage Sneaks',
         images: [
             "/rick-owens/img/vans-black-milk-1.jpg",
             "/rick-owens/img/vans-pink-milk-1.jpg",
@@ -451,7 +451,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Rick Owens & Vans Leather',
+        title: 'Vintage Sneaks Leather',
         images: [
             "/rick-owens/img/vans-leather-black-milk-1.jpg",
             "/rick-owens/img/vans-leather-grey-milk-1.jpg",
@@ -463,7 +463,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Rick Owens & Vans Suede',
+        title: 'Vintage Sneaks Suede',
         images: [
             "/rick-owens/img/vans-suede-black-milk-1.jpg",
             "/rick-owens/img/vans-suede-brown-milk-1.jpg",
@@ -474,7 +474,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Rick Owens & Vans Fur',
+        title: 'Vintage Sneaks Fur',
         images: [
             "/rick-owens/img/vans-fur-black-milk-1.jpg",
             "/rick-owens/img/vans-fur-red-milk-1.jpg",
@@ -486,7 +486,7 @@ const rickMainMenu = [
         parent: vans,
     },
     {
-        title: 'Rick Owens & Vans High',
+        title: 'Vintage Sneaks High',
         images: [
             "/rick-owens/img/vans-high-black-milk-1.jpg",
             "/rick-owens/img/vans-high-leather-black-milk-1.jpg",

@@ -104,7 +104,7 @@ const mainMenu = [
         parentSelector: '.rick-owens-menu',
     },
     {
-        title: 'Rick Owens & Vans',
+        title: 'Rick Owens Vintage Sneaks',
         images: [
             "/rick-owens/img/vans-leather-black-milk-1.jpg",
             "/rick-owens/img/vans-black-milk-1.jpg",

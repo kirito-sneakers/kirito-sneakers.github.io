@@ -377,7 +377,7 @@ const balenciagaMainMenu = [
 ];
 
 const BRAND_KEYWORDS = {
-    'rick-owens': ['geobasket', 'ramones', 'dunk', 'vans'],
+    'rick-owens': ['geobasket', 'ramones', 'dunk', 'vintage'],
     'balenciaga': ['3xl', 'track', 'runner', 'triple s', 'defender', '10xl', '6xl', 'cargo', 'circuit', 'stapler', 'x-pander', 'hike'],
     'maison-margiela': ['replica', 'tabi', 'future']
 };
