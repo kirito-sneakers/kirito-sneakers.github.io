@@ -120,7 +120,7 @@ const mainMenu = [
         title: 'Replica',
         images: [
             '/maison-margiela/img/replica-white-grey-1.jpg',
-            "/maison-margiela/img/replica-painted-black-1.jpg",
+            "/maison-margiela/img/replica-painted-white-1.jpg",
         ],
         href: "./maison-margiela/#replica_title",
         models: 2,
