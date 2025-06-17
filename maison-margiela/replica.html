@@ -52,42 +52,45 @@
     <script src="/gallary.js"></script>
     <script src="/script.js"></script>
     <script>
-        const colorBtn = document.querySelector('.color-nf');
+const colorBtn = document.querySelector('.color-nf');
 const modal = document.querySelector('.modal-window');
-const overlay = document.querySelector('.modal-overlay');
+const overlay = document.querySelector('.modal-overlay'); // не забудь создать этот div
 const closeModalBtn = document.querySelector('.modal-header button');
 
 let scrollTop = 0;
 
+// Открытие модалки
 colorBtn.addEventListener('click', () => {
-    scrollTop = window.scrollY;
+  scrollTop = window.scrollY;
 
-    // Блокируем скролл
-    document.body.style.position = 'fixed';
-    document.body.style.top = `-${scrollTop}px`;
-    document.body.style.width = '100%';
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${scrollTop}px`;
+  document.body.style.width = '100%';
 
-    modal.style.display = 'flex';
-    overlay.style.display = 'block';
+  modal.style.display = 'flex';
+  overlay.classList.add('nav-opened'); // показываем overlay
 });
 
+// Закрытие модалки
 function closeModal() {
-    document.body.style.position = '';
-    document.body.style.top = '';
-    document.body.style.width = '';
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.width = '';
 
-    modal.style.display = 'none';
-    overlay.style.display = 'none';
+  modal.style.display = 'none';
+  overlay.classList.remove('nav-opened');
 
-    // Немного задержки перед прокруткой
-    setTimeout(() => {
-        window.scrollTo(0, scrollTop);
-    }, 0);
+  document.documentElement.style.scrollBehavior = 'auto';
+  window.scrollTo(0, scrollTop);
+
+  setTimeout(() => {
+    document.documentElement.style.scrollBehavior = '';
+  }, 0);
 }
-
 
 overlay.addEventListener('click', closeModal);
 closeModalBtn.addEventListener('click', closeModal);
+
 
 
         const commonInfo = {
