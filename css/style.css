@@ -20,6 +20,72 @@ main {
     flex-grow: 1; /* Основной контент будет занимать доступное пространство */
 }
 
+.modal-overlay {
+    position: fixed;
+    z-index: 999998;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.modal-window {
+    display: none;
+    position: fixed;
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999999;
+    flex-direction: column;
+    border-radius: 10px;
+    div {
+        padding: 30px;
+    }
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        border-bottom: 1px solid black;
+        p {
+            font-size: 30px;
+            text-wrap-mode: nowrap;
+        }
+        button {
+            display: flex;
+            align-content: center;
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p {
+            font-size: 15px;
+        }
+        a {
+            margin: 0 auto;
+        }
+    }
+}
+
+.color-nf {
+    margin-top: -20px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .no-scroll {
     overflow: hidden;
 }
@@ -2113,6 +2179,28 @@ footer {
             }
         }
     }
+
+    .modal-window {
+        div {
+            padding: 15px;
+        }
+        .modal-header {
+            p {
+                font-size: 20px;
+                line-height: 40px;
+            }
+        }
+        .modal-body {
+            p {
+                font-size: 13px;
+            }
+            a {
+                width: 130px;
+                height: 50px;
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 @media (max-width: 556px) {
@@ -2367,6 +2455,30 @@ footer {
             }
         }
     }
+    
+    .modal-window {
+        div {
+            padding: 15px;
+        }
+        .modal-header {
+            p {
+                font-size: 20px;
+                line-height: 25px;
+                text-wrap-mode: wrap;
+            }
+        }
+        .modal-body {
+            p {
+                font-size: 13px;
+            }
+            a {
+                width: 130px;
+                height: 50px;
+                font-size: 12px;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 352px) {

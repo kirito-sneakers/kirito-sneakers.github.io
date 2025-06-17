@@ -18,13 +18,26 @@
     </style>
 </head>
 <body>
-
+    <div class="modal-overlay"></div>
+    <div class="modal-window">
+        <div class="modal-header">
+            <p class="oswald-medium">Не знайшли потрібний колір?</p>
+            <button>
+                <svg fill="#000000" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M697.4 759.2l61.8-61.8L573.8 512l185.4-185.4-61.8-61.8L512 450.2 326.6 264.8l-61.8 61.8L450.2 512 264.8 697.4l61.8 61.8L512 573.8z"></path></g></svg>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p class="montserrat-light">Ми можемо замовити будь-який доступний колір цієї моделі Maison Margiela. Якщо ви шукаєте конкретну пару — напишіть нам, і ми допоможемо підібрати та замовити те, що потрібно саме вам.</p>
+            <a href="https://t.me/kirito_ls" target="_blank" class="view-all-btn montserrat-light">Написати нам</a>
+        </div>
+    </div>
     <main>
         <section class="item">
             <div class="galary"></div>
             <div class="item-info">
                 <h2 class="oswald-medium"></h2>
                 <div class="colors"></div>
+                <button class="color-nf">Не знайшли потрібний колір?</button>
                 <div class="descr montserrat-light">
                     <ul></ul>
                     <p class="sizes"></p>
@@ -39,6 +52,44 @@
     <script src="/gallary.js"></script>
     <script src="/script.js"></script>
     <script>
+        const colorBtn = document.querySelector('.color-nf');
+const modal = document.querySelector('.modal-window');
+const overlay = document.querySelector('.modal-overlay');
+const closeModalBtn = document.querySelector('.modal-header button');
+
+let scrollTop = 0;
+
+colorBtn.addEventListener('click', () => {
+    scrollTop = window.scrollY;
+
+    // Блокируем скролл
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollTop}px`;
+    document.body.style.width = '100%';
+
+    modal.style.display = 'flex';
+    overlay.style.display = 'block';
+});
+
+function closeModal() {
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
+
+    modal.style.display = 'none';
+    overlay.style.display = 'none';
+
+    // Немного задержки перед прокруткой
+    setTimeout(() => {
+        window.scrollTo(0, scrollTop);
+    }, 0);
+}
+
+
+overlay.addEventListener('click', closeModal);
+closeModalBtn.addEventListener('click', closeModal);
+
+
         const commonInfo = {
             prices: {
                 excellent: "5400 ₴",
@@ -61,8 +112,8 @@
                 ],
                 name: "Replica in White/Grey",
                 prices: {
-                    excellent: "5600 ₴",
-                    good: "4800 ₴",
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
                     middle: ""
                 }
             },
@@ -78,8 +129,8 @@
                 ],
                 name: "Replica in Black/Grey",
                 prices: {
-                    excellent: "5600 ₴",
-                    good: "4800 ₴",
+                    excellent: "5100 ₴",
+                    good: "",
                     middle: ""
                 }
             },
@@ -93,8 +144,8 @@
                 ],
                 name: "Replica in White",
                 prices: {
-                    excellent: "",
-                    good: "4800 ₴",
+                    excellent: "5100 ₴",
+                    good: "",
                     middle: ""
                 }
             },
@@ -108,8 +159,8 @@
                 ],
                 name: "Replica in Black",
                 prices: {
-                    excellent: "5600 ₴",
-                    good: "4800 ₴",
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
                     middle: ""
                 }
             },
@@ -123,8 +174,8 @@
                 ],
                 name: "Replica in Red",
                 prices: {
-                    excellent: "5600 ₴",
-                    good: "",
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
                     middle: ""
                 }
             },
@@ -138,7 +189,7 @@
                 ],
                 name: "Replica in Purple",
                 prices: {
-                    excellent: "5600 ₴",
+                    excellent: "5100 ₴",
                     good: "",
                     middle: ""
                 }
@@ -154,8 +205,8 @@
                 ],
                 name: "Replica in Yellow",
                 prices: {
-                    excellent: "5600 ₴",
-                    good: "",
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
                     middle: ""
                 }
             },
@@ -169,8 +220,8 @@
                 ],
                 name: "Replica in Light Blue",
                 prices: {
-                    excellent: "",
-                    good: "4800 ₴",
+                    excellent: "5100 ₴",
+                    good: "",
                     middle: ""
                 }
             },
@@ -184,7 +235,7 @@
                 ],
                 name: "Replica in Cracking Silver",
                 prices: {
-                    excellent: "5600 ₴",
+                    excellent: "5100 ₴",
                     good: "",
                     middle: ""
                 }
