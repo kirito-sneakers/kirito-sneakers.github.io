@@ -18,7 +18,7 @@ goBackBtn.addEventListener('click', () => {
     if (window.history.length > 1) {
         history.back();
     } else {
-        window.location.href = "/eng"; // замените на свой путь, если нужно
+        window.location.href = "/"; // замените на свой путь, если нужно
     }
 });
 
