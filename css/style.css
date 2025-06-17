@@ -86,6 +86,7 @@ main {
     border: none;
     cursor: pointer;
     text-decoration: underline;
+    color: black;
 }
 
 .no-scroll {
