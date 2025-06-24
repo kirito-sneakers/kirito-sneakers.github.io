@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Monday</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <ul></ul>
+                    <p class="sizes"></p>
+                    <a href="/info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" target="_blank" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/gallary.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4200 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-46",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "white",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/57f59bb74e499132/eCom-825417WDTSC9110_F.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/6351d095b27993f0/eCom-825417WDTSC9110_J.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/86403f12982f6f6/eCom-825417WDTSC9110_L.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/2ae4de7c186c66f6/eCom-825417WDTSC9110_I.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/69d30370e650e59d/eCom-825417WDTSC9110_D.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/4b45bbd63bb5790f/eCom-825417WDTSC9110_E.jpg?v=3",
+                    "https://balenciaga.dam.kering.com/m/69ecddc134028667/eCom-825417WDTSC9110_A.jpg?v=1",
+                ],
+                name: "Balenciaga Monday in White",
+                prices: {
+                    excellent: "4200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/6e00d804e4fbde4e/eCom-825417WDTSC1000_F.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/497d170d2370ae4b/eCom-825417WDTSC1000_J.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/1b376c9054d21556/eCom-825417WDTSC1000_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/10fe465761746c32/eCom-825417WDTSC1000_I.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/76fee6dbb802a74c/eCom-825417WDTSC1000_D.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/62304e120cc5ca19/eCom-825417WDTSC1000_E.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/4c6497ba81036ca8/eCom-825417WDTSC1000_A.jpg?v=2",
+                ],
+                name: "Balenciaga Monday in Black",
+                prices: {
+                    excellent: "4200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "grey",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/ec7055796be4297/eCom-825418WMNSS1011_F.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/5fa650b02cae82d8/eCom-825418WMNSS1011_J.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/66d8ea8ab9a11a27/eCom-825418WMNSS1011_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/da7c0e0e0013a3d/eCom-825418WMNSS1011_I.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/3bc92a05c10d743e/eCom-825418WMNSS1011_D.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/16e49edc971e8ac1/eCom-825418WMNSS1011_E.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/242158b0e9d96e5a/eCom-825418WMNSS1011_A.jpg?v=2",
+                ],
+                name: "Balenciaga Monday in Grey",
+                prices: {
+                    excellent: "4200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-blue",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/4d8253724e8a8f68/eCom-825418WDWTS4090_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2b8eeb239601d8ef/eCom-825418WDWTS4090_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/617535af4ede3342/eCom-825418WDWTS4090_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/68ae04dcb2fb3a0e/eCom-825418WDWTS4090_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/615780ee297e6537/eCom-825418WDWTS4090_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/6804c9f47641f1d4/eCom-825418WDWTS4090_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/42a29916e544bf1f/eCom-825418WDWTS4090_A.jpg?v=1",
+                ],
+                name: "Balenciaga Monday in White/Blue",
+                prices: {
+                    excellent: "4200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-yellow",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/4d108f29f41d4730/eCom-825418WDWTS1971_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/4b55d87f171ced3b/eCom-825418WDWTS1971_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/56d745b6f06c8999/eCom-825418WDWTS1971_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/701d6eb067d36cf7/eCom-825418WDWTS1971_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/486b433f189c17c2/eCom-825418WDWTS1971_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/316087967ceacd6a/eCom-825418WDWTS1971_E.jpg?v=1",
+                ],
+                name: "Balenciaga Monday in White/Yellow",
+                prices: {
+                    excellent: "4200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-pink",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/363744a903b241a8/eCom-825417WDTSC5191_F.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/4101291264684b8/eCom-825417WDTSC5191_J.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/5958a3a1d504d0f5/eCom-825417WDTSC5191_L.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/2519b925802427d3/eCom-825417WDTSC5191_I.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/54ff7e6994163a14/eCom-825417WDTSC5191_D.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/297bb32b66967e50/eCom-825417WDTSC5191_E.jpg?v=2",
+                    "https://balenciaga.dam.kering.com/m/2872f0970e645283/eCom-825417WDTSC5191_A.jpg?v=2",
+                ],
+                name: "Balenciaga Monday in White/Pink",
+                prices: {
+                    excellent: "4200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("white", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

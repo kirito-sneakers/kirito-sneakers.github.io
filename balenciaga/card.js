@@ -2,6 +2,7 @@ const three_xl = document.querySelector('#three_xl');
 const track = document.querySelector('#track');
 const runner = document.querySelector('#runner');
 const triple_s = document.querySelector('#triple_s');
+const paris = document.querySelector('#paris');
 const others = document.querySelector('#others');
 
 const balenciagaMainMenu = [
@@ -52,6 +53,31 @@ const balenciagaMainMenu = [
         parent: three_xl,
     },
     {
+        title: '3xl extreme laces b',
+        images: [
+            "https://balenciaga.dam.kering.com/m/154103c77be60e18/eCom-825601W3XCH1000_F.jpg?v=1",
+            "https://balenciaga.dam.kering.com/m/61f8460d886598bc/eCom-825601W3XCH1101_F.jpg?v=3",
+            "/balenciaga/img/3xl-extreme-laces-b-white-1.jpg",
+            "/balenciaga/img/3xl-extreme-laces-b-light-beige-1.jpg",
+            "/balenciaga/img/3xl-extreme-laces-b-black_white-1.jpg",
+            "https://balenciaga.dam.kering.com/m/1e8afd11abbaafb/eCom-825601W3XCH1614_F.jpg?v=1",
+            "https://balenciaga.dam.kering.com/m/bd46ef8844f97a2/eCom-825599W3XCH9145_F.jpg?v=1",
+        ],
+        colors: 7,
+        href: "./3xl-extreme-laces-b.html",
+        parent: three_xl,
+    },
+    {
+        title: '3xl extreme laces logo',
+        images: [
+            "https://balenciaga.dam.kering.com/m/37bd57c64f2c33e2/eCom-825597W3XHL9010_F.jpg?v=1",
+            "/balenciaga/img/3xl-extreme-laces-logo-white-1.jpg",
+        ],
+        colors: 2,
+        href: "./3xl-extreme-laces-logo.html",
+        parent: three_xl,
+    },
+    {
         title: 'balenciaga & under armour 3xl',
         images: [
             "https://balenciaga.dam.kering.com/m/102c767026467f20/Large-814419W3XUA1090_F.jpg?v=1",
@@ -98,6 +124,18 @@ const balenciagaMainMenu = [
         ],
         colors: 4,
         href: "./track-graffiti.html",
+        parent: track,
+    },
+    {
+        title: 'track laces',
+        images: [
+            "https://balenciaga.dam.kering.com/m/33d9ddef3f4a347a/eCom-800592WTRHK1000_F.jpg?v=1",
+            "https://balenciaga.dam.kering.com/m/431ac370c5f680ae/eCom-800590WTRHK9050_F.jpg?v=1",
+            "https://balenciaga.dam.kering.com/m/5e76a853a5833293/eCom-800590WTRHK1013_F.jpg?v=1",
+            "/balenciaga/img/track-laces-1.jpg",
+        ],
+        colors: 4,
+        href: "./track-laces.html",
         parent: track,
     },
     {
@@ -268,6 +306,38 @@ const balenciagaMainMenu = [
         parent: triple_s,
     },
     {
+        title: 'Paris High',
+        images: [
+            "/balenciaga/img/paris-high-black-milk-1.jpg",
+            "/balenciaga/img/paris-high-black-1.jpg",
+            "/balenciaga/img/paris-high-beige-1.jpg",
+            "/balenciaga/img/paris-high-brown-milk-1.jpg",
+            "/balenciaga/img/paris-high-blue-milk-1.jpg",
+            "/balenciaga/img/paris-high-red-milk-1.jpg",
+            "/balenciaga/img/paris-high-pink-milk-1.jpg",
+            "/balenciaga/img/paris-high-denim-milk-1.jpg",
+        ],
+        colors: 8,
+        href: "./paris-high.html",
+        parent: paris,
+    },
+        {
+        title: 'Paris Low',
+        images: [
+            "/balenciaga/img/paris-low-black-milk-1.jpg",
+            "/balenciaga/img/paris-low-black-1.jpg",
+            "/balenciaga/img/paris-low-beige-1.jpg",
+            "/balenciaga/img/paris-low-brown-milk-1.jpg",
+            "/balenciaga/img/paris-low-blue-milk-1.jpg",
+            "/balenciaga/img/paris-low-red-milk-1.jpg",
+            "/balenciaga/img/paris-low-pink-milk-1.jpg",
+            "/balenciaga/img/paris-low-denim-milk-1.jpg",
+        ],
+        colors: 8,
+        href: "./paris-low.html",
+        parent: paris,
+    },
+    {
         title: 'defender',
         images: [
             "https://balenciaga.dam.kering.com/m/27ee2e98d9a41441/Large-685613W2RA61000_F.jpg?v=4",
@@ -374,11 +444,35 @@ const balenciagaMainMenu = [
         href: "./hike.html",
         parent: others,
     },
+    {
+        title: 'monday',
+        images: [
+            "https://balenciaga.dam.kering.com/m/57f59bb74e499132/eCom-825417WDTSC9110_F.jpg?v=3",
+            "https://balenciaga.dam.kering.com/m/6e00d804e4fbde4e/eCom-825417WDTSC1000_F.jpg?v=2",
+            "https://balenciaga.dam.kering.com/m/ec7055796be4297/eCom-825418WMNSS1011_F.jpg?v=2",
+            "https://balenciaga.dam.kering.com/m/4d8253724e8a8f68/eCom-825418WDWTS4090_F.jpg?v=1",
+            "https://balenciaga.dam.kering.com/m/4d108f29f41d4730/eCom-825418WDWTS1971_F.jpg?v=1",
+            "https://balenciaga.dam.kering.com/m/363744a903b241a8/eCom-825417WDTSC5191_F.jpg?v=2",
+        ],
+        colors: 6,
+        href: "./monday.html",
+        parent: others,
+    },
+    {
+        title: 'platform',
+        images: [
+            "https://balenciaga.dam.kering.com/m/6f6f768fcb7089f6/eCom-821137WPLTF1160_F.jpg?v=4",
+            "https://balenciaga.dam.kering.com/m/28b401829727991b/eCom-821137WPLTF1011_F.jpg?v=5",
+        ],
+        colors: 2,
+        href: "./platform.html",
+        parent: others,
+    },
 ];
 
 const BRAND_KEYWORDS = {
     'rick-owens': ['geobasket', 'ramones', 'dunk', 'vintage'],
-    'balenciaga': ['3xl', 'track', 'runner', 'triple s', 'defender', '10xl', '6xl', 'cargo', 'circuit', 'stapler', 'x-pander', 'hike'],
+    'balenciaga': ['3xl', 'track', 'runner', 'triple s', 'defender', '10xl', '6xl', 'cargo', 'circuit', 'stapler', 'x-pander', 'hike', 'monday', 'platform', 'paris'],
     'maison-margiela': ['replica', 'tabi', 'future']
 };
 
