@@ -6,12 +6,13 @@ const mainMenu = [
             "https://balenciaga.dam.kering.com/m/17883204e082f5a8/Large-778697W3XLL9191_F.jpg?v=1",
             "https://balenciaga.dam.kering.com/m/154103c77be60e18/eCom-825601W3XCH1000_F.jpg?v=1",
             "https://balenciaga.dam.kering.com/m/37bd57c64f2c33e2/eCom-825597W3XHL9010_F.jpg?v=1",
+            "/balenciaga/img/3xl-chain-black-1.jpg",
             "https://balenciaga.dam.kering.com/m/3bfa45de6b09a324/Medium-766034W3XR39710_F.jpg?v=1",
             "https://balenciaga.dam.kering.com/m/102c767026467f20/Large-814419W3XUA1090_F.jpg?v=1",
             "https://balenciaga.dam.kering.com/m/10e6ed040d681a1d/Large-734731W2RG39010_F.jpg?v=2"
         ],
         href: "./balenciaga/#three_xl_title",
-        models: 7,
+        models: 8,
         parentSelector: '.balenciaga-menu',
     },
     {

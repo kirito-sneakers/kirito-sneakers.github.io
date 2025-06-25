@@ -1124,6 +1124,21 @@ main {
     } 
 }
 
+.orange-grey {
+    background-color:  grey;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        background-color: orange;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+    } 
+}
+
 .orange-milk-1 {
     background-color: #f8ffdd;
     &::before {

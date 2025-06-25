@@ -71,9 +71,11 @@ const balenciagaMainMenu = [
         title: '3xl extreme laces logo',
         images: [
             "https://balenciaga.dam.kering.com/m/37bd57c64f2c33e2/eCom-825597W3XHL9010_F.jpg?v=1",
+            "/balenciaga/img/3xl-extreme-laces-logo-black-1.jpg",
             "/balenciaga/img/3xl-extreme-laces-logo-white-1.jpg",
+            "https://balenciaga.dam.kering.com/m/6814e35dc3990146/eCom-825597W3XHL2162_F.jpg?v=1",
         ],
-        colors: 2,
+        colors: 4,
         href: "./3xl-extreme-laces-logo.html",
         parent: three_xl,
     },
@@ -85,6 +87,16 @@ const balenciagaMainMenu = [
         ],
         colors: 2,
         href: "./3xl-under_armour.html",
+        parent: three_xl,
+    },
+    {
+        title: '3xl Chain',
+        images: [
+            "/balenciaga/img/3xl-chain-black-1.jpg",
+            "/balenciaga/img/3xl-chain-beige-1.jpg",
+        ],
+        colors: 2,
+        href: "./3xl-chain.html",
         parent: three_xl,
     },
     {
