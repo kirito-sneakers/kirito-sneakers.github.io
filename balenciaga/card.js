@@ -142,11 +142,12 @@ const balenciagaMainMenu = [
         title: 'track laces',
         images: [
             "https://balenciaga.dam.kering.com/m/33d9ddef3f4a347a/eCom-800592WTRHK1000_F.jpg?v=1",
+            "https://balenciaga.dam.kering.com/m/795102ba2a8b6bbc/eCom-800592WTRHK7000_F.jpg?v=1",
             "https://balenciaga.dam.kering.com/m/431ac370c5f680ae/eCom-800590WTRHK9050_F.jpg?v=1",
             "https://balenciaga.dam.kering.com/m/5e76a853a5833293/eCom-800590WTRHK1013_F.jpg?v=1",
             "/balenciaga/img/track-laces-1.jpg",
         ],
-        colors: 4,
+        colors: 5,
         href: "./track-laces.html",
         parent: track,
     },
