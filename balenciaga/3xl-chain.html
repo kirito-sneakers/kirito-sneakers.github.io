@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga 3XL Chain</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <ul></ul>
+                    <p class="sizes"></p>
+                    <a href="/info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" target="_blank" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/gallary.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5700 ₴",
+                good: "",
+                middle: ""
+            },
+            sizes: "35-46",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black",
+                images: [
+                    "/balenciaga/img/3xl-chain-black-1.jpg",
+                    "/balenciaga/img/3xl-chain-black-2.jpg",
+                    "/balenciaga/img/3xl-chain-black-3.jpg",
+                    "/balenciaga/img/3xl-chain-black-4.jpg",
+                    "/balenciaga/img/3xl-chain-black-5.jpg",
+                ],
+                name: "Balenciaga 3xl Chain in Black",
+                prices: {
+                    excellent: "5700 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "beige",
+                images: [
+                    "/balenciaga/img/3xl-chain-beige-1.jpg",
+                    "https://www.mytheresa.com/media/1094/1238/100/15/P01038623.jpg",
+                    "https://www.mytheresa.com/media/1094/1238/100/15/P01038623_d1.jpg",
+                ],
+                name: "Balenciaga 3xl Chain in Light Beige",
+                prices: {
+                    excellent: "5700 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+
+    </script>
+</body>
+</html>

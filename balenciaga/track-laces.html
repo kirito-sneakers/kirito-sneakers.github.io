@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Track Laces</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <ul></ul>
+                    <p class="sizes"></p>
+                    <a href="/info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" target="_blank" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/gallary.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-orange",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/33d9ddef3f4a347a/eCom-800592WTRHK1000_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/38d0d75d6047aecd/eCom-800592WTRHK1000_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2712a571ff0b44bf/eCom-800592WTRHK1000_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/36a116fe5f550bc/eCom-800592WTRHK1000_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/4aa48262e33a0ecd/eCom-800592WTRHK1000_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/3b6a3fd68764fb4c/eCom-800592WTRHK1000_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/3b5b219fd3a424ca/eCom-800592WTRHK1000_A.jpg?v=1",
+                ],
+                name: "Balenciaga Track Laces in Black/Orange",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "orange-grey",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/795102ba2a8b6bbc/eCom-800592WTRHK7000_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/30983390db87a387/eCom-800592WTRHK7000_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/3b1d0e045a59c9b1/eCom-800592WTRHK7000_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/59dd108b8cbd0716/eCom-800592WTRHK7000_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/94f730a127dfe8e/eCom-800592WTRHK7000_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/492246b7a67365c0/eCom-800592WTRHK7000_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/425113cd633c651b/eCom-800592WTRHK7000_A.jpg?v=1",
+                ],
+                name: "Balenciaga Track Laces in Orange/Grey",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white-lilac",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/431ac370c5f680ae/eCom-800590WTRHK9050_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2bfd5fc3c2d3973f/eCom-800590WTRHK9050_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/ff850b5db69d823/eCom-800590WTRHK9050_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/367fe78fae58159f/eCom-800590WTRHK9050_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/233b421d03d0579c/eCom-800590WTRHK9050_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2a321b0560c685d/eCom-800590WTRHK9050_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/701f5fbf6e867fe8/eCom-800590WTRHK9050_A.jpg?v=1",
+                ],
+                name: "Balenciaga Track Laces in White/Lilac",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "grey-pink",
+                images: [
+                    "https://balenciaga.dam.kering.com/m/5e76a853a5833293/eCom-800590WTRHK1013_F.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/30e2326a722a2b98/eCom-800590WTRHK1013_J.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/2758a03521af878/eCom-800590WTRHK1013_L.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/4657a051aa8c24f1/eCom-800590WTRHK1013_I.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/798f4da71e50702/eCom-800590WTRHK1013_D.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/1c1727abb2c23732/eCom-800590WTRHK1013_E.jpg?v=1",
+                    "https://balenciaga.dam.kering.com/m/5d71e9ebfd0dbece/eCom-800590WTRHK1013_A.jpg?v=1",
+                ],
+                name: "Balenciaga Track Laces in Grey/Pink",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "4500 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "/balenciaga/img/track-laces-1.jpg",
+                    "https://cultboutique.com.ua/files/resized/products/e8bc7fba-7997-11ef-ba81-005056906f7d_049c2a38-86e6-11ef-ba81-005056906f7d.2400x2400w.jpeg",
+                    "https://cultboutique.com.ua/files/resized/products/e8bc7fba-7997-11ef-ba81-005056906f7d_049c2a3a-86e6-11ef-ba81-005056906f7d.2400x2400w.jpeg",
+                    "https://cultboutique.com.ua/files/resized/products/e8bc7fba-7997-11ef-ba81-005056906f7d_049c2a3e-86e6-11ef-ba81-005056906f7d.2400x2400w.jpeg",
+                ],
+                name: "Balenciaga Track Laces in black",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-orange", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

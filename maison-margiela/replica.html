@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Margiela Replica</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="modal-overlay"></div>
+    <div class="modal-window">
+        <div class="modal-header">
+            <p class="oswald-medium">Не знайшли потрібний колір?</p>
+            <button type="button">
+                <svg width="40" height="40" fill="#000000" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                <path d="M697.4 759.2l61.8-61.8L573.8 512l185.4-185.4-61.8-61.8L512 450.2 326.6 264.8l-61.8 61.8L450.2 512 264.8 697.4l61.8 61.8L512 573.8z"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p class="montserrat-light">Ми можемо замовити будь-який доступний колір цієї моделі Maison Margiela. Якщо ви шукаєте конкретну пару — напишіть нам, і ми допоможемо підібрати та замовити те, що потрібно саме вам.</p>
+            <a href="https://t.me/kirito_ls" target="_blank" class="view-all-btn montserrat-light">Написати нам</a>
+        </div>
+    </div>
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <p class="color-nf montserrat-light">Не знайшли потрібний колір?</p>
+                <div class="descr montserrat-light">
+                    <ul></ul>
+                    <p class="sizes"></p>
+                    <a href="/info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" target="_blank" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/gallary.js"></script>
+    <script src="/script.js"></script>
+    <script>
+const colorBtn = document.querySelector('.color-nf');
+const modal = document.querySelector('.modal-window');
+const overlay = document.querySelector('.modal-overlay'); // не забудь создать этот div
+const closeModalBtn = document.querySelector('.modal-header button');
+
+let scrollTop = 0;
+
+// Открытие модалки
+colorBtn.addEventListener('click', () => {
+  scrollTop = window.scrollY;
+
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${scrollTop}px`;
+  document.body.style.width = '100%';
+
+  modal.style.display = 'flex';
+  overlay.classList.add('nav-opened'); // показываем overlay
+});
+
+// Закрытие модалки
+function closeModal() {
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.width = '';
+
+  modal.style.display = 'none';
+  overlay.classList.remove('nav-opened');
+
+  document.documentElement.style.scrollBehavior = 'auto';
+  window.scrollTo(0, scrollTop);
+
+  setTimeout(() => {
+    document.documentElement.style.scrollBehavior = '';
+  }, 0);
+}
+
+overlay.addEventListener('click', closeModal);
+closeModalBtn.addEventListener('click', closeModal);
+
+
+
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "4600 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-46",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "white-grey",
+                images: [
+                    "/maison-margiela/img/replica-white-grey-1.jpg",
+                    "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Fd6%2Fd0%2FShoes-4-4-9319f.jpg?fit=max&w=2160&q=90",
+                    "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F52%2Ff7%2FShoes-4-2-29647.jpg?fit=max&w=2160&q=90",
+                    "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F8a%2Fbb%2FShoes-4-5-05c5b.jpg?fit=max&w=2160&q=90",
+                    "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Faa%2F34%2FShoes-4-3-51459.jpg?fit=max&w=2160&q=90",
+                ],
+                name: "maison margiela Replica in White/Grey",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black-grey",
+                images: [
+                    "/maison-margiela/img/replica-black-grey-1.jpg",
+                    "https://images.shafastatic.net/2173950081",
+                    "https://images.shafastatic.net/2173950073",
+                    "https://images.shafastatic.net/2173950080",
+                    "https://images.shafastatic.net/2173950086",
+                    "https://images.shafastatic.net/2173950088",
+                ],
+                name: "maison margiela Replica in Black/Grey",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "white",
+                images: [
+                    "/maison-margiela/img/replica-white-1.jpg",
+                    "/maison-margiela/img/replica-white-2.jpg",
+                    "/maison-margiela/img/replica-white-3.jpg",
+                    "/maison-margiela/img/replica-white-4.jpg",
+                ],
+                name: "maison margiela Replica in White",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "/maison-margiela/img/replica-black-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/17/74/10/70/17741070_37296096_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/17/74/10/70/17741070_37296112_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/17/74/10/70/17741070_37296127_2048.jpg",
+                ],
+                name: "maison margiela Replica in Black",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "red",
+                images: [
+                    "/maison-margiela/img/replica-red-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/29/99/79/19/29997919_59117818_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/29/99/79/19/29997919_59117827_2048.jpg",
+                    "https://cdn-images.farfetch-contents.com/29/99/79/19/29997919_59117773_2048.jpg",
+                ],
+                name: "maison margiela Replica in Red",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "purple",
+                images: [
+                    "/maison-margiela/img/replica-purple-1.jpg",
+                    "/maison-margiela/img/replica-purple-2.jpg",
+                    "/maison-margiela/img/replica-purple-3.jpg",
+                    "/maison-margiela/img/replica-purple-4.jpg",
+                ],
+                name: "maison margiela Replica in Purple",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "yellow",
+                images: [
+                    "/maison-margiela/img/replica-yellow-1.jpg",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20220212/34a9fb4ad7a34f53afc4d6aec67a4bd9.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20220212/a8c759f9bdd04efead30c803b052aff4.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20220212/0140a99994104f5cb6e3acd251302cb7.jpg?x-oss-process=image/format,webp/resize,w_800",
+                    "https://cdn-img.poizonapp.com/pro-img/cut-img/20220212/93a78b9a85114c72b01c73777c137f41.jpg?x-oss-process=image/format,webp/resize,w_800",
+                ],
+                name: "maison margiela Replica in Yellow",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "4600 ₴",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "light-blue",
+                images: [
+                    "/maison-margiela/img/replica-light-blue-1.jpg",
+                    "/maison-margiela/img/replica-light-blue-2.jpg",
+                    "/maison-margiela/img/replica-light-blue-3.jpg",
+                    "/maison-margiela/img/replica-light-blue-4.jpg",
+                ],
+                name: "maison margiela Replica in Light Blue",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "silver",
+                images: [
+                    "/maison-margiela/img/replica-cracking-silver-1.jpg",
+                    "/maison-margiela/img/replica-cracking-silver-2.jpg",
+                    "/maison-margiela/img/replica-cracking-silver-3.jpg",
+                    "/maison-margiela/img/replica-cracking-silver-4.jpg",
+                ],
+                name: "maison margiela Replica in Cracking Silver",
+                prices: {
+                    excellent: "5100 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("white-grey", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>

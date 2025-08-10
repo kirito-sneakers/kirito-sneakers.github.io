@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Paris High</title>
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="item">
+            <div class="galary"></div>
+            <div class="item-info">
+                <h2 class="oswald-medium"></h2>
+                <div class="colors"></div>
+                <div class="descr montserrat-light">
+                    <ul></ul>
+                    <p class="sizes"></p>
+                    <a href="/info.html" class="about-qlt">Докладніше про якість</a>
+                    <a href="https://t.me/kirito_ls" target="_blank" class="view-all-btn">замовити</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/gallary.js"></script>
+    <script src="/script.js"></script>
+    <script>
+        const commonInfo = {
+            prices: {
+                excellent: "5400 ₴",
+                good: "3200 ₴",
+                middle: "3800 ₴"
+            },
+            sizes: "35-45",
+            shipping: "Отправка в течении 12-14 рабочих дней"
+        };
+
+        const colorsData = [
+            {
+                colorName: "black-milk",
+                images: [
+                    "/balenciaga/img/paris-high-black-milk-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/37/86/23/18378623_40072591_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/37/86/23/18378623_40073176_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/37/86/23/18378623_40073178_1000.jpg",
+                ],
+                name: "Balenciaga Paris High in Black/Milk",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "black",
+                images: [
+                    "/balenciaga/img/paris-high-black-1.jpg",
+                    "/balenciaga/img/paris-high-black-2.jpg",
+                    "/balenciaga/img/paris-high-black-3.jpg",
+                    "/balenciaga/img/paris-high-black-4.jpg",
+                ],
+                name: "Balenciaga Paris High in Black",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "beige",
+                images: [
+                    "/balenciaga/img/paris-high-beige-1.jpg",
+                    "https://cdn1.jolicloset.com/img4/full/2022/09/621188-2.jpg",
+                    "https://cdn1.jolicloset.com/img4/full/2022/09/621188-3.jpg",
+                    "https://cdn1.jolicloset.com/img4/full/2022/09/621188-4.jpg",
+                ],
+                name: "Balenciaga Paris High in Beige",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "brown-milk",
+                images: [
+                    "/balenciaga/img/paris-high-brown-milk-1.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/36/98/96/18369896_39924850_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/36/98/96/18369896_39928539_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/36/98/96/18369896_39928536_1000.jpg",
+                    "https://cdn-images.farfetch-contents.com/18/36/98/96/18369896_41439920_1000.jpg",
+                ],
+                name: "Balenciaga Paris High in brown/Milk",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "blue-milk",
+                images: [
+                    "/balenciaga/img/paris-high-blue-milk-1.jpg",
+                    "/balenciaga/img/paris-high-blue-milk-2.jpg",
+                    "/balenciaga/img/paris-high-blue-milk-3.jpg",
+                    "/balenciaga/img/paris-high-blue-milk-5.jpg",
+                    "/balenciaga/img/paris-high-blue-milk-4.jpg",
+                ],
+                name: "Balenciaga Paris High in Blue/Milk",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "red-milk",
+                images: [
+                    "/balenciaga/img/paris-high-red-milk-1.jpg",
+                    "/balenciaga/img/paris-high-red-milk-4.jpg",
+                    "/balenciaga/img/paris-high-red-milk-3.jpg",
+                    "/balenciaga/img/paris-high-red-milk-2.jpg",
+                ],
+                name: "Balenciaga Paris High in Red/Milk",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "pink-milk",
+                images: [
+                    "/balenciaga/img/paris-high-pink-milk-1.jpg",
+                    "/balenciaga/img/paris-high-pink-milk-2.jpg",
+                    "/balenciaga/img/paris-high-pink-milk-3.jpg",
+                    "/balenciaga/img/paris-high-pink-milk-4.jpg",
+                    "/balenciaga/img/paris-high-pink-milk-5.jpg",
+                ],
+                name: "Balenciaga Paris High in Pink/Milk",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+            {
+                colorName: "denim-milk",
+                images: [
+                    "/balenciaga/img/paris-high-denim-milk-1.jpg",
+                    "https://www.sneakinpeace.com/cdn/shop/files/balenciaga-ParisHighTopTrainersinbluedestroyeddenimandrubber-3_a2ee6f7c-f1e8-4817-8d1c-08727b63b397_1600x2000.jpg?v=1683547531",
+                    "https://www.sneakinpeace.com/cdn/shop/files/balenciaga-ParisHighTopTrainersinbluedestroyeddenimandrubber-4_0c2b12eb-d008-42c9-9121-d5a6cad5da53_1600x2000.jpg?v=1683547532",
+                    "https://www.sneakinpeace.com/cdn/shop/files/balenciaga-ParisHighTopTrainersinbluedestroyeddenimandrubber-2_cbb53a9b-4653-405f-a1c0-a5107f38ff93_1600x2000.jpg?v=1683547531",
+                    "https://www.sneakinpeace.com/cdn/shop/files/balenciaga-ParisHighTopTrainersinbluedestroyeddenimandrubber-5_19082f28-0385-4d51-bd19-c6d8cbe4a810_1600x2000.jpg?v=1683547532",
+                ],
+                name: "Balenciaga Paris High in Denim/Milk",
+                prices: {
+                    excellent: "3200 ₴",
+                    good: "",
+                    middle: ""
+                }
+            },
+        ];
+
+        updateContent("black-milk", commonInfo, colorsData);
+        setColorButtons(colorsData, commonInfo);
+
+    </script>
+</body>
+</html>
